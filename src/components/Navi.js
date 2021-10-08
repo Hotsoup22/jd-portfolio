@@ -1,13 +1,38 @@
-export default function Nav(){
+// import PortfolioPage from "./PortfolioPage"
+
+const page = [
+    {
+    id: 1,
+    name: 'About Me'
+},
+{
+    id: 2,
+    name: 'Portfolio'
+},
+{
+    id: 3,
+    name: 'Contact'
+},
+{
+    id: 4,
+    name: 'Resume'
+}
+];
+export default function Nav( { currentPage, handlePageChange }){
     return (
         <div>
             <nav>
-                {/* <Nav.Link href="#AboutMe">About Me</Nav.Link>
-                <Nav.Link href="#Resume">Resume </Nav.Link> */}
-                <a href='#Resume'>Resume</a><br></br>
-                <a href='#AboutMe'>About Me</a><br></br>
-                <a href='#Portfolio'>Home</a><br></br>
-                <a href='#ContactInfo'>Contact Me</a><br></br>
+              {page.map( ( page ) => (
+				<li key={page.id}>
+					<a
+						href={'#' + page.name}
+						onClick={() => handlePageChange( page.name )}
+						className={currentPage === page.name ? 'nav-link active' : 'nav-link'}
+					>
+						{page.name}
+					</a>
+				</li>
+			) )}
             </nav>
         </div>
     )
