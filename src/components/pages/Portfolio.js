@@ -5,6 +5,9 @@ const applications= [
     liveUrl:"https://shelf-life-206.herokuapp.com/",
     repoUrl:"https://github.com/hotsoup42/shelf-life",
     Dependencies: [
+      "JavaScript",
+      "HTML",
+      "CSS",
       "bcrypt",
       "connect-session-sequelize",
       "dotenv",
@@ -27,35 +30,48 @@ const applications= [
        "CSS",],
 },
 {
-    title:"",
-    image:"",
-    liveUrl:"",
-    repoUrl:"",
-    technology: [],
+    title:"Regex Tutorial",
+    image:"public\assets\regex-tutorial.PNG",
+    liveUrl:"https://gist.github.com/hotsoup42/fa31063b57df2b55dcd8cf7c0e43e78e#file-matchinganemail-md",
+    repoUrl:"https://gist.github.com/hotsoup42/fa31063b57df2b55dcd8cf7c0e43e78e",
+    technology: ["Markdown","Regular Expressions"],
 
 },
 {
-    title:"",
-    image:"",
-    liveUrl:"",
-    repoUrl:"",
-    technology: [],
+    title:"Quiz Game",
+    image:"public\assets\QuizGame.PNG",
+    liveUrl:"https://hotsoup42.github.io/04-quiz-game/",
+    repoUrl:"https://github.com/hotsoup42/04-quiz-game",
+    technology: ["HTML", "JavaScript","CSS 1.9%"],
 
 },
 {
-    title:"",
-    image:"",
-    liveUrl:"",
-    repoUrl:"",
-    technology: [],
-
+    title:"Note Taker",
+    image:"public\assets\NoteTaker.PNG",
+    liveUrl:"https://note-taker-11111.herokuapp.com/notes",
+    repoUrl:"https://github.com/hotsoup42/Note-Taker",
+    technology: [
+        "JavaScript 71.2%",
+        "HTML 19.5%",
+        "CSS 9.3%",
+        "bcrypt",
+        "connect-session-sequelize",
+        "dotenv",
+        "express", 
+        "express-handlebars",
+        "express-session",
+        "luxon",
+        "mysql2",
+        "sequelize",
+        "nodemon"
+    ]
 },
 {
-    title:"",
-    image:"",
-    liveUrl:"",
-    repoUrl:"",
-    technology: [],
+    title:"README Generator",
+    image:"public\assets\readMeGen.PNG",
+    liveUrl:"N/A",
+    repoUrl:"https://github.com/hotsoup42/README-Generator",
+    technology: ["JavaScript", "inquirer"],
 
 },
 ]
@@ -67,15 +83,14 @@ export default function Portfolio(){
     return (
         <div>
             <h3>Portfolio</h3>
-
-        </div>
-        {applications.map( ( projectInfo ) => (
-            <Project key={projectInfo.id}
+            {applications.map( ( projectInfo ) => (
+            <ProjectCard 
                 title={projectInfo.title}
-                imageName={projectInfo.imageName}
-                liveURL={projectInfo.liveURL}
-                repoURL={projectInfo.repoURL}
+                image={projectInfo.image}
+                liveUrl={projectInfo.liveUrl}
+                repoUrl={projectInfo.repoUrl}
             />
         ) )}
-    
+        </div>    
+    );
 }
