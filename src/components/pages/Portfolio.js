@@ -1,7 +1,8 @@
+import ProjectCard from '../ProjectCard'
 const applications= [
 {
     title:"Shelf-Life",
-    image:"public\assets\shelf-life-pj2.PNG",
+    image:"shelf-life-pj2.PNG",
     liveUrl:"https://shelf-life-206.herokuapp.com/",
     repoUrl:"https://github.com/hotsoup42/shelf-life",
     Dependencies: [
@@ -21,7 +22,7 @@ const applications= [
 },
 {
     title:"Calendar",
-    image:"public\assets\calendar-pj1.PNG",
+    image:"calendar-pj1.PNG",
     liveUrl:"https://mohamedmesahel.github.io/Calendar/index.html",
     repoUrl:"https://github.com/hotsoup42/Calendar",
     technology: [
@@ -31,7 +32,7 @@ const applications= [
 },
 {
     title:"Regex Tutorial",
-    image:"public\assets\regex-tutorial.PNG",
+    image:"regex-tutorial.PNG",
     liveUrl:"https://gist.github.com/hotsoup42/fa31063b57df2b55dcd8cf7c0e43e78e#file-matchinganemail-md",
     repoUrl:"https://gist.github.com/hotsoup42/fa31063b57df2b55dcd8cf7c0e43e78e",
     technology: ["Markdown","Regular Expressions"],
@@ -39,7 +40,7 @@ const applications= [
 },
 {
     title:"Quiz Game",
-    image:"public\assets\QuizGame.PNG",
+    image:"QuizGame.PNG",
     liveUrl:"https://hotsoup42.github.io/04-quiz-game/",
     repoUrl:"https://github.com/hotsoup42/04-quiz-game",
     technology: ["HTML", "JavaScript","CSS 1.9%"],
@@ -47,7 +48,7 @@ const applications= [
 },
 {
     title:"Note Taker",
-    image:"public\assets\NoteTaker.PNG",
+    image:"NoteTaker.PNG",
     liveUrl:"https://note-taker-11111.herokuapp.com/notes",
     repoUrl:"https://github.com/hotsoup42/Note-Taker",
     technology: [
@@ -68,7 +69,7 @@ const applications= [
 },
 {
     title:"README Generator",
-    image:"public\assets\readMeGen.PNG",
+    image:"public/assets/readMeGen.PNG",
     liveUrl:"N/A",
     repoUrl:"https://github.com/hotsoup42/README-Generator",
     technology: ["JavaScript", "inquirer"],
@@ -89,6 +90,7 @@ export default function Portfolio(){
                 image={projectInfo.image}
                 liveUrl={projectInfo.liveUrl}
                 repoUrl={projectInfo.repoUrl}
+                technology={projectInfo.technology}
             />
         ) )}
         </div>    

@@ -6,6 +6,7 @@ import Contact from './pages/ContactInfo'
 import Portfolio from './pages/Portfolio'
 import {useState} from 'react';
 
+
 export default function PortfolioPage(){
     const [currentPage, setCurrentPage] = useState( 'Portfolio' );
     const handlePageChange = ( page ) => setCurrentPage( page );
