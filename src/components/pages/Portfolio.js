@@ -69,7 +69,7 @@ const applications= [
 },
 {
     title:"README Generator",
-    image:"public/assets/readMeGen.PNG",
+    image:"readMeGen.PNG",
     liveUrl:"N/A",
     repoUrl:"https://github.com/hotsoup42/README-Generator",
     technology: ["JavaScript", "inquirer"],
@@ -82,8 +82,12 @@ const applications= [
 
 export default function Portfolio(){
     return (
-        <div>
-            <h3>Portfolio</h3>
+   
+        <div className='portfolio'>
+            <div>
+                <h3>portfolio</h3>
+            </div>
+            <div className='projectCard'>
             {applications.map( ( projectInfo ) => (
             <ProjectCard 
                 title={projectInfo.title}
@@ -93,6 +97,7 @@ export default function Portfolio(){
                 technology={projectInfo.technology}
             />
         ) )}
+        </div>
         </div>    
     );
 }
