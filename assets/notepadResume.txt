@@ -1,0 +1,18 @@
+Jose E Diaz
+
+Focused and quick-Learing Developer
+
+Skills: 
+HTML5
+CSS3
+JavaScript
+jQuery
+Handlebars.js
+React.js
+Node.js
+Express.js
+MySQL2
+Sequelize
+MongoDB
+Mongoose.js
+                        
