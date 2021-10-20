@@ -5,10 +5,11 @@ export default function Header({ currentPage, handlePageChange }){
     return(
         <div>
             <header>
-            leftComponent= <img className="profile-pic" src={`${process.env.PUBLIC_URL}/assets/profilepicture.png`} alt="Jose Diaz"/>
-
-                <h1>Jose E Diaz</h1>
+                <h1>Jose E. Diaz</h1>
                 <Navi currentPage={currentPage} handlePageChange={handlePageChange}/>
+                <div>
+                                 
+        </div>
             </header>
         </div>
    

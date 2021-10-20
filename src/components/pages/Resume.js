@@ -3,14 +3,15 @@ export default function Resume(){
         <div>
             <div>
             <h3>Resume</h3>
+            <a href="https://drive.google.com/file/d/122HYGt1mfoV6cdf2rqYJxIgJkrvwPzfq/view?" target="_blank" rel="noreferrer">pdf download</a>
             </div>
             <div>
                 <h5>Summary</h5>
-                <p>Focused and quick-Learing Developer</p>
+                <p className='ptag'>Focused and quick-Learing Developer</p>
             </div>
             <div>
                 <h5>Skills</h5>
-                <ul>
+                <ul className='ptag'>
                         <li>HTML5</li>
 						<li>CSS3</li>
 						<li>JavaScript</li>

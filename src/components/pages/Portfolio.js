@@ -1,4 +1,5 @@
 import ProjectCard from '../ProjectCard'
+
 const applications= [
 {
     title:"Shelf-Life",
@@ -82,11 +83,9 @@ const applications= [
 
 export default function Portfolio(){
     return (
-   
+       
         <div className='portfolio'>
-            <div>
-                <h3>portfolio</h3>
-            </div>
+      
             <div className='projectCard'>
             {applications.map( ( projectInfo ) => (
             <ProjectCard 

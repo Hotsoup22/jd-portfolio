@@ -20,7 +20,7 @@ const page = [
 ];
 export default function Nav( { currentPage, handlePageChange }){
     return (
-        <div>
+        <div className='navDiv'>
             <nav>
               {page.map( ( page ) => (
 				<li key={page.id}>

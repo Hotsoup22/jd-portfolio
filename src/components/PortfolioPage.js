@@ -5,6 +5,7 @@ import AboutMe from './pages/AboutMe'
 import Contact from './pages/ContactInfo'
 import Portfolio from './pages/Portfolio'
 import {useState} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function PortfolioPage(){
@@ -26,7 +27,7 @@ export default function PortfolioPage(){
 
    
     return(
-       <div>
+       <div className='thisit'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
             <Footer/>

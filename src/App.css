@@ -1,50 +1,43 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #64808E;
-}
-
-img{
-    max-width: 200px;
-}
-Nav{
-    display: flex;
-    align-items: center;
-    
-    background-color: #759696;
-}
-li {
-    list-style-type: none;
+.row{
+ 
+    margin: 2rem;
   }
-.nav-link {
-    text-decoration: none;
-    margin: 0 15px;
-    padding: 15px;
-    border-radius: 5px;
+
+.projectCard{
+    background-color:darkgrey;
 }
-
-body {
-
-  background-color: #8CB2B8;
-  margin-bottom: 4rem;
+.navDiv{
+    display: flex;
+    justify-content: center;
+  
+    background-color: darkkhaki;
+    
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+.thisit{
+background-color:darkslategray;
+}
+img{
+    max-width: 50rem;
+}
+.card-body{
+background-color: darkslategray;
 }
 .footer{
-    margin-top: .5rem;
-    
-    background-color:#7885AB;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
+    background-color: khaki;
+}
+html{
+    background-color: darkslategray;
 
-  .projectCard{
-    display: flex;
-
-
-
-  }
-  .ProjectCard{
-      background-color: aliceblue;
-      
-  }
+}
+.btn-group{
+    background-color: khaki;
+}
+.ptag{
+    background-color: darkgrey;
+}
