@@ -8,7 +8,7 @@ Create a portfolio using React! I used `create-react-app`  to get started on a s
 
 
 ## Usage
-Live Site:
+Live Site: https://hotsoup42.github.io/jd-portfolio/
 ![liveSite Screenshot](public/assets/screenshotLivesite.PNG)
 
 
@@ -23,7 +23,7 @@ Live Site:
 
 
 ## contact
-Github:
+Github: https://github.com/hotsoup42/jd-portfolio
 
 ## Futher Development
 will be updated regulary as projects get updated/created.
