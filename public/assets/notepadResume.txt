@@ -15,4 +15,5 @@ MySQL2
 Sequelize
 MongoDB
 Mongoose.js
+https://drive.google.com/file/d/122HYGt1mfoV6cdf2rqYJxIgJkrvwPzfq/view?usp=sharing
                         

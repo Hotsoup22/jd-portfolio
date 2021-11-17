@@ -2,8 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Container from 'react-bootstrap/Container'
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Container from "react-bootstrap/Container";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
 export default function ProjectCard({
   title,
   image,
@@ -12,25 +12,39 @@ export default function ProjectCard({
   technology,
 }) {
   return (
-    <Container>
-      <Row xs={1} md={1} className="g-4">
-        {Array.from({ length: 1 }).map((_, idx) => (
+    <Container className="container">
+      <Row  className="g-4">
+        {Array.from({ length: 1 }).map((_) => (
           <Col>
-            <Card>
-              <Card.Img
+
+            <Card style={{ border: "10px solid black" }}>
+              <Card.Img 
                 variant="top"
                 src={`${process.env.PUBLIC_URL}/assets/${image}`}
                 alt="Application Image"
               />
               <Card.Body>
-                <Card.Title>{title}</Card.Title>
-                <Card.Text>
-                <ButtonGroup>
-                            <a rel="noreferrer" href={liveUrl} target="_blank"
-                                className="btn btn-sm btn-outline-secondary">View</a>
-                            <a rel="noreferrer" href={repoUrl} target="_blank"
-                                className="btn btn-sm btn-outline-secondary">Repo</a>
-                        </ButtonGroup>
+                <Card.Title className="card-title">{title}</Card.Title>
+                <Card.Text className="card-text">
+                <p><span className="technologies">Technologies:</span> {technology}</p>
+                  <ButtonGroup>
+                    <a
+                      rel="noreferrer"
+                      href={liveUrl}
+                      target="_blank"
+                      className="btn btn-sm btn-outline-secondary"
+                    >
+                      View Live App
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      href={repoUrl}
+                      target="_blank"
+                      className="btn btn-sm btn-outline-secondary"
+                    >
+                      GitHub Repository
+                    </a>
+                  </ButtonGroup>
                 </Card.Text>
               </Card.Body>
             </Card>

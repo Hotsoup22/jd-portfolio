@@ -27,7 +27,7 @@ export default function PortfolioPage(){
 
    
     return(
-       <div className='thisit'>
+       <div className='handlePage bg-image'  style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/spaceBG.jpg'})` }}>
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
             <Footer/>
