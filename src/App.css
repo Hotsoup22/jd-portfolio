@@ -10,7 +10,6 @@
     display: flex;
     justify-content: center;
   
-    background-color: black;
     
     margin-bottom: 50px;
     list-style-type: none;
@@ -20,7 +19,7 @@ nav{
     justify-content:space-between;
 }
 .handlePage{
-background-color:#73926C;
+background-color:rgb(61, 61, 61);
 }
 /* img{
     max-width: 50rem;
@@ -30,14 +29,14 @@ background-color: darkslategray;
 } */
 
 html{
-    background-color: darkslategray;
+    background-color: rgb(61, 61, 61);
 
 }
 
 
  
 .nameTitle{
-    background-color: black;
+   
     text-align: center;
     color: white;
     font-weight: bolder;
@@ -48,13 +47,13 @@ html{
 }
 a.nav-link{
     color:  rgb(247, 247, 247);
-    background-color: black;
+    background-color: grey;
 }
 
 .card-body{
-background-color: rgb(13, 67, 102);
-border: 5px solid rgb(14, 2, 80);
-border-radius: 5px;
+background-color: rgb(61, 61, 61);
+/* border: 5px solid rgb(14, 2, 80);
+border-radius: 5px; */
 
 }
 
@@ -65,7 +64,7 @@ border-bottom: solid rgb(0, 0, 0);
 }
 
 .card-text{
-    padding: 20px;
+    
     
     color: rgb(243, 243, 243);
   
@@ -73,7 +72,7 @@ border-bottom: solid rgb(0, 0, 0);
 }
 
 .btn-group{
-    background-color: rgb(24, 43, 128);
+    background-color: #000000;
     /* width: 100%; */
     max-width: auto;
     border-radius: 10px;
@@ -83,7 +82,13 @@ border-bottom: solid rgb(0, 0, 0);
 
 .footerDiv{
     text-align: center;
-    background-color: #73926C;
+    color: darkgray;
+
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
 }
 
 .bg-image{
@@ -110,14 +115,36 @@ header{
 .card{
     margin: auto;
     
-    padding: 10px;
     max-width:60%;
-    border: 5px solid red;
+    /* border: 5px solid rgb(164, 230, 11); */
 
 }
 
+.nav-link{
+    margin: px;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    background-color: lightgreen;
+   
+}
 /* @media screen and (min-width: 375px) {
     .card-body{
         max-width: auto;
     }
   } */
+.aboutMePtag{
+      color:white;
+      font-size: larger;
+      font-weight: bold;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      line-height: 2;
+      position: relative; 
+      
+    }
+/*     
+.aboutMePtag:hover{
+    color:lightgray;
+    cursor: pointer;
+} */

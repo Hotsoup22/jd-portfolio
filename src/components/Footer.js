@@ -2,8 +2,8 @@ import React from "react";
 const Footer = () => (
     
         
-        <div className="footerDiv">
-        <p>Questions? Contact Me: email@gmail.com</p>
-      </div>
+        <footer className="footerDiv">
+        <p> Contact Me: email@gmail.com</p>
+      </footer>
     );
 export default Footer;

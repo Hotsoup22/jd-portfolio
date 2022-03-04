@@ -4,6 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
+
+
 export default function ProjectCard({
   title,
   image,
@@ -17,10 +19,11 @@ export default function ProjectCard({
         {Array.from({ length: 1 }).map((_) => (
           <Col>
 
-            <Card style={{ border: "10px solid black" }}>
+            <Card style={{ border: "5px solid darkGrey" }}>
               <Card.Img 
                 variant="top"
                 src={`${process.env.PUBLIC_URL}/assets/${image}`}
+                href
                 alt="Application Image"
               />
               <Card.Body>

@@ -5,7 +5,7 @@ export default function Header({ currentPage, handlePageChange }){
         <div  >
             <header  >
                
-                <h1 class="nameTitle">Jose E. Diaz</h1>
+                <h1 className="nameTitle">Jose E. Diaz</h1>
                 <Navi currentPage={currentPage} handlePageChange={handlePageChange}/>
                 <div>
                                  
