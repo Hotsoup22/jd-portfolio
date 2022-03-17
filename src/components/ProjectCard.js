@@ -11,6 +11,8 @@ export default function ProjectCard({
   image,
   liveUrl,
   repoUrl,
+  description,
+  features,
   technology,
 }) {
   return (
@@ -29,7 +31,9 @@ export default function ProjectCard({
               <Card.Body>
                 <Card.Title className="card-title">{title}</Card.Title>
                 <Card.Text className="card-text">
-                <p><span className="technologies">Technologies:</span> {technology}</p>
+                <p className="description">Description: {description}</p>  
+                <p className="features">Features: {features}</p>
+                <p className="technologies">Technologies: {technology}</p>
                   <ButtonGroup>
                     <a
                       rel="noreferrer"
@@ -55,16 +59,5 @@ export default function ProjectCard({
         ))}
       </Row>
     </Container>
-    // <div className="ProjectCard">
-
-    //     <img src={`${process.env.PUBLIC_URL}/assets/${image}`} alt="Application Image"/>
-    //     <div>
-    //         <a href={liveUrl}>Visit Live Website</a>
-    //         <br></br>
-    //         <a href={repoUrl}>Visit Repositorie</a>
-    //         <h5>technology used</h5>
-    //         <ul>{technology}</ul>
-    //     </div>
-    // </div>
   );
 }
