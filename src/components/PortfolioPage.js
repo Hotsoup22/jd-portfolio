@@ -25,11 +25,9 @@ export default function PortfolioPage(){
 			return <AboutMe />;
 		}
 	};
-
-   
     return(
        <div className='handlePage bg-image'  >
-            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Header currentPage={currentPage} handlePageChange={handlePageChange}  />
             {renderPage()}
             <Footer />
         </div>
