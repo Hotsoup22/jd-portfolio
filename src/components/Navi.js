@@ -1,4 +1,4 @@
-import PortfolioPage from "./PortfolioPage"
+
 import React from 'react';
 // import { MDBRipple } from 'mdb-react-ui-kit';
 
@@ -11,27 +11,22 @@ const page = [
     id: 2,
     name: 'Portfolio'
 },
+// {
+//     id: 3,
+//     name: 'Contact'
+// },
 {
     id: 3,
-    name: 'Contact'
-},
-{
-    id: 4,
     name: 'Resume'
 }
 ];
 export default function Nav( { currentPage, handlePageChange }){
     return (
         <div className='navDiv'>
-               {/* <MDBRipple
-                className='bg-image hover-overlay shadow-1-strong rounded'
-                style={{ maxWidth: '22rem' }}
-                rippleTag='div'
-                 rippleColor='light'
-                > */}
+             
             <nav>
               {page.map( ( page ) => (
-				<li key={page.id}>
+				<li key={page.name}>
                     
 					<a
 						href={'#' + page.name}
@@ -43,7 +38,6 @@ export default function Nav( { currentPage, handlePageChange }){
 				</li>
 			) )}
             </nav>
-            {/* </MDBRipple> */}
         </div>
     )
 }
