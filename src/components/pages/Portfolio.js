@@ -56,8 +56,16 @@ const applications= [
      CSS,
      jquery`
 },
+{
+    title:"README Generator",
+    image:"readMeGen.PNG",
+    liveUrl:"N/A",
+    repoUrl:"https://github.com/hotsoup42/README-Generator",
+    description:"",
+    features:"",
+    technology: `JavaScript, inquirer`
 
-
+},
 {
     title:"Note Taker",
     image:"NoteTaker.PNG",
@@ -80,16 +88,6 @@ const applications= [
         nodemon
     `
 },
-{
-    title:"README Generator",
-    image:"readMeGen.PNG",
-    liveUrl:"N/A",
-    repoUrl:"https://github.com/hotsoup42/README-Generator",
-    description:"",
-    features:"",
-    technology: `JavaScript, inquirer`
-
-},
 ]
 
 
@@ -97,12 +95,9 @@ const applications= [
 
 export default function Portfolio(){
     return (
-       
-        <div className='portfolio'>
-      
-            <div className='projectCard'>
-            {applications.map( ( aplicationsMap ) => (
-            <ProjectCard 
+            <div className='projectCard portfolio' >
+            {applications.map( ( aplicationsMap , index) => (
+            <ProjectCard  key={index}
                 title={aplicationsMap.title}
                 image={aplicationsMap.image}
                 liveUrl={aplicationsMap.liveUrl}
@@ -110,10 +105,9 @@ export default function Portfolio(){
                 description={aplicationsMap.description}
                 features={aplicationsMap.features}
                 technology={aplicationsMap.technology}
-                
             />
-        ) )}
+        ))}
         </div>
-        </div>    
+         
     );
 }
