@@ -2,10 +2,10 @@ import Header from './Header';
 import Footer from './Footer';
 import Resume from './pages/Resume'
 import AboutMe from './pages/AboutMe'
-import Contact from './pages/ContactInfo'
-import Portfolio from './pages/Portfolio'
+// import Contact from './pages/ContactInfo'
+import Portfolio from './pages/Portfolio';
 import {useState} from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 export default function PortfolioPage(){
@@ -13,11 +13,12 @@ export default function PortfolioPage(){
     const handlePageChange = ( page ) => setCurrentPage( page );
 
 	const renderPage = () => {
+
 		switch( currentPage ) {
 		case 'Portfolio':
 			return <Portfolio />;
-		case 'Contact':
-			return <Contact />;
+		// case 'Contact':
+		// 	return <Contact />;
 		case 'Resume':
 			return <Resume />;
 		default:
@@ -28,10 +29,9 @@ export default function PortfolioPage(){
    
     return(
        <div className='handlePage bg-image'  >
-            <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
-            <Footer/>
+            <Footer />
         </div>
     )
 }
-// style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/spaceBG.jpg'})` }}
