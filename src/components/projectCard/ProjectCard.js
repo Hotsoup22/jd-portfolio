@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-
+import '../projectCard/projectCardStyle.css';
 import Container from "react-bootstrap/Container";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 
@@ -15,18 +15,18 @@ export default function ProjectCard({
 }) {
   return (
     <Container className="container">
-            <Card >
-              <Card.Img 
+            <Card bg='dark' >
+              <a href={liveUrl}><Card.Img className=" project-image"
                 variant="top"
                 src={`${process.env.PUBLIC_URL}/assets/${image}`}
                 alt="Application Image"
-              />
+              /></a>
               <Card.Body>
                 <Card.Title className="card-title">{title}</Card.Title>
 
-                <p className="description">Description: {description}</p>  
-                <p className="features">Features: {features}</p>
-                <p className="technologies">Technologies: {technology}</p>
+                <p className="description"><b>Description:</b> {description}</p>  
+                <p className="features"><b>Features:</b> {features}</p>
+                <p className="technologies"><b>Technologies:</b> {technology}</p>
                   <ButtonGroup>
                     <a
                       rel="noreferrer"

@@ -9,7 +9,7 @@ const page = [
 },
 {
     id: 2,
-    name: 'Portfolio'
+    name: 'My-Projects'
 },
 // {
 //     id: 3,

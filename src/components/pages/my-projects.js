@@ -1,4 +1,4 @@
-import ProjectCard from '../ProjectCard'
+import ProjectCard from '../projectCard/ProjectCard'
 
 const applications= [
 {
@@ -34,7 +34,7 @@ const applications= [
 
 },
 {
-    title:"password-gen",
+    title:"Password-Generator",
     image:"scrnShot-password-gen-v2.png",
     liveUrl:"https://password-generator0.herokuapp.com/",
     repoUrl:"https://github.com/Hotsoup22/password-Gen-v2",
@@ -93,7 +93,7 @@ const applications= [
 
 
 
-export default function Portfolio(){
+export default function MyProjects(){
     return (
             <div className='projectCard portfolio' >
             {applications.map( ( aplicationsMap , index) => (
