@@ -1,6 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
-import Resume from './pages/Resume'
+import Resume from './pages/Resume/Resume'
 import AboutMe from './pages/AboutMe/AboutMe.js'
 // import Contact from './pages/ContactInfo'
 import MyProjects from './pages/my-projects';
@@ -15,14 +15,12 @@ export default function PortfolioPage(){
 	const renderPage = () => {
 
 		switch( currentPage ) {
-		case 'My-Projects':
-			return <MyProjects/>;
-		// case 'Contact':
-		// 	return <Contact />;
+		case 'About Me':
+			return <AboutMe/>;
 		case 'Resume':
 			return <Resume />;
 		default:
-			return <AboutMe />;
+			return <MyProjects />;
 		}
 	};
     return(
