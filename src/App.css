@@ -17,7 +17,11 @@ nav {
 
 .handlePage {
   background-color: rgb(61, 61, 61);
+  text-align: center;
+  object-fit: cover;
+  justify-content: space-between;
 }
+
 
 html {
   background-color: rgb(61, 61, 61);
@@ -26,7 +30,7 @@ html {
 .nameTitle {
   text-align: center;
   color: white;
-  font-weight: bolder;
+
   padding-top: 00px;
   position: sticky;
 }
@@ -42,12 +46,11 @@ margin:10px;
 }
 
 .card-title {
-  color: rgb(255, 255, 255);
+
   border-bottom: solid rgb(0, 0, 0);
 }
 
 .card-text {
-  color: rgb(243, 243, 243);
   border-radius: 5px;
 }
 
@@ -67,15 +70,6 @@ margin:10px;
   height: 40px;
 }
 
-.bg-image {
-  text-align: center;
-  object-fit: cover;
-  justify-content: space-between;
-}
-.technologies {
-  font-weight: bolder;
-  color: rgb(0, 0, 0);
-}
 
 header {
   background-color: black;
@@ -85,7 +79,7 @@ header {
 }
 .card {
   margin: auto;
-  max-width: 60%;
+  max-width: 90%;
 }
 
 .nav-link {
@@ -104,4 +98,5 @@ header {
   line-height: 2;
   position: relative;
 }
+
 
