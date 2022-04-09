@@ -1,3 +1,4 @@
+import { Card } from 'react-bootstrap'
 import ProjectCard from '../projectCard/ProjectCard'
 
 const applications= [
@@ -96,6 +97,7 @@ const applications= [
 export default function MyProjects(){
     return (
             <div className='projectCard portfolio' >
+               
             {applications.map( ( aplicationsMap , index) => (
             <ProjectCard  key={index}
                 title={aplicationsMap.title}
