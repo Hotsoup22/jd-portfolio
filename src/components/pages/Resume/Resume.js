@@ -11,22 +11,23 @@ export default function Resume() {
           alt="pictures goes here"
           className="profilePic"
         ></img>
-        <div className="resumeIntroDiv">
+        <div className="resume-Header-Div">
           <h3 className="full-Stack-Web-Dev">Full-Stack Web Developer</h3>
-          <p className=" resumePIntro">
-            {" "}
+          <p className=" resume-header-Ptag-Intro">
+           
             Ready to develop databases, create user interfaces, write/test/debug
             code. Innovative, Motivated, Equipped With A Certificate In Full
             Stack Web Development, From the University of Washington, And a
             background in heavy machinery repair/maintaince, Forever student of
-            computer science.{" "}
+            computer science.
           </p>
         </div>
       </Card.Header>
-      <Card.Body className="card-body">
+      <Card.Body className="card-body-resume">
 
       <div className=" card-body-col1">
       <section className="resume-contactInfo ">
+          <h4 className="resume-htag">Contact Info:</h4>
             <p>Email: <a>jose22gw@gmail.com</a></p>
             <p>Phone #: <a>1800-0000</a></p>
             <p>Located In: <a>Federal way, WA</a></p>
@@ -36,7 +37,7 @@ export default function Resume() {
         </section>
 
           <section className="resume-technicalSkills">
-            <h5>Technical Skills</h5>
+            <h5 className="resume-htag">Technical Skills:</h5>
                       
                             <h6>Browser Based Technologies</h6>
                         <ul className="technicalSkills-list">
@@ -92,10 +93,30 @@ export default function Resume() {
         </div>
 
         <div className="card-body-col2">
-          <section>
-            <h4>Work Experience</h4>
-            <p>BinFord</p>
-            <p> Amazon wharehouse</p>
+
+          <section className="work-Exp">
+            <h4 className="resume-htag">Work Experience</h4>
+
+            <div className="work-exp-binford">
+                <h6 className="work-exp-title">BinFord Metals, WA.</h6>
+                <p className='work-exp-title'><b>Role: </b>Repair / Maintaince:</p>
+                <ul   className=" technicalSkills-list">
+                    <li>repaired forklifts mainly</li>
+                    <li> repaired a variety of heavy equiment (bull-dozer's,skid steers, loaders)</li>
+                    <li>fuel systems. (propane, diesal, gasoline)</li>
+                    <li>engine tear-down, rebuilds, and swaps.</li>
+                    <li>hydraulic systems</li>
+                    <li> custom fabrication</li>
+                    <li>electric wirng, patched, updated, or replaced.</li>
+                    <li>digonasing and problem solving was an everyday duty</li>
+
+                </ul>
+            </div>
+
+            <div className="work-exp-amazon">
+            <h6> Amazon wharehouse</h6>
+            </div>
+
           </section>
 
           <section>

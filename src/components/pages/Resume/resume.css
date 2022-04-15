@@ -1,7 +1,5 @@
-.resumeDiv{
-    border-radius: 1%;
-    background-color: rgb(227, 227, 227);
-}
+
+
 .full-Stack-Web-Dev{
     display: flex;
     margin-left:2.5%;
@@ -10,9 +8,10 @@
     text-decoration: underline;
     background-color:rgb(153, 152, 152);
     padding: 1%;
-
+    border-top: solid black 2px;
+    border-left: solid black 2px;
 }
-.resumePIntro{
+.resume-header-Ptag-Intro{
     display: flex;
     text-align: left;
     margin-left: 2.5%;
@@ -20,46 +19,85 @@
     padding: 1%;
     padding-right: 7%;
     margin-right:-1.05em;
-    border-bottom-left-radius: 2%;
-    color: white;
+
+    border-bottom: solid black 2px;
+    border-left: solid black 2px
+
     
     /* add media query for iphone screen res */
 }
 
-.card-body{
+.card-body-resume{
     display: flex;
     justify-content: space-evenly;
  
 
 }
+/* left side column */
 .card-body-col1{
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 .resume-contactInfo{
-  
+    margin-bottom: 5%;
+    text-align: left;
+}
+.resume-contactInfo p{
+    background: #afafaf;
+    padding: 5px;
+    margin: 5px;
+    
     text-align: left;
 }
 .resume-technicalSkills{
 
     text-align: left;
+    
 }
 .technicalSkills-list{
     list-style-type: none;
-    
-    padding: 0;
+    margin-bottom: 5%;
+    padding-left:0;
+  ;
 
 }
 .technicalSkills-list li{
     background: #afafaf;
     padding: 5px;
     margin: 5px;
+    
 }
+
+/* right side column */
 .card-body-col2{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    text-align: right;
+}
+.work-Exp{
+
+
+}
+.work-exp-binford {
+    
+
+ 
+}
+.work-exp-title{
+    background: #afafaf;
+    padding: 5px;
+    margin: 5px; 
+    margin-left:5px;  
+}
+.work-exp-binford li{
+    list-style-type: none;
+   text-align: right;
+    background: #afafaf;
+    padding: 5px;
+
+    margin: 5px;
 }
 
 .card-Header-Resume{
@@ -75,4 +113,8 @@
     margin-top: 0%;
     color: black;
     /* add media query for 4k */
+}
+.resume-htag{
+margin-bottom: 10px;
+
 }
