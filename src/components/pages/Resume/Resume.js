@@ -4,7 +4,7 @@ import "./resume.css";
 import profilePic from "../../../assets/temp-profilePic.jpg";
 export default function Resume() {
   return (
-    <Card className="resumeDiv">
+    <Card bg='dark' className="resumeDiv">
       <Card.Header className="card-Header-Resume">
         <img
           src={profilePic}
@@ -18,7 +18,7 @@ export default function Resume() {
             Ready to develop databases, create user interfaces, write/test/debug
             code. Innovative, Motivated, Equipped With A Certificate In Full
             Stack Web Development, From the University of Washington, And a
-            background in heavy machinery repair/maintaince, Forever student of
+            background in machine repair/maintaince, Forever student of
             computer science.
           </p>
         </div>
@@ -84,10 +84,7 @@ export default function Resume() {
                         </ul>
           </section>
 
-          <section>
-            <h5>Interest</h5>
-            <p></p>
-          </section>
+
 
 
         </div>
@@ -95,18 +92,18 @@ export default function Resume() {
         <div className="card-body-col2">
 
           <section className="work-Exp">
-            <h4 className="resume-htag">Work Experience</h4>
+            <h4 className="resume-htag">Work Experience:</h4>
 
             <div className="work-exp-binford">
                 <h6 className="work-exp-title">BinFord Metals, WA.</h6>
                 <p className='work-exp-title'><b>Role: </b>Repair / Maintaince:</p>
                 <ul   className=" technicalSkills-list">
                     <li>repaired forklifts mainly</li>
-                    <li> repaired a variety of heavy equiment (bull-dozer's,skid steers, loaders)</li>
+                    <li>repaired a variety of heavy equiment (bull-dozer's,skid steers, loaders)</li>
                     <li>fuel systems. (propane, diesal, gasoline)</li>
                     <li>engine tear-down, rebuilds, and swaps.</li>
                     <li>hydraulic systems</li>
-                    <li> custom fabrication</li>
+                    <li>custom fabrication</li>
                     <li>electric wirng, patched, updated, or replaced.</li>
                     <li>digonasing and problem solving was an everyday duty</li>
 
@@ -114,18 +111,56 @@ export default function Resume() {
             </div>
 
             <div className="work-exp-amazon">
-            <h6> Amazon wharehouse</h6>
+            <h6 className="work-exp-title">Amazon Fufillment, WA.</h6>
+                <p className='work-exp-title'><b>Role: </b>Fulfillment Associate</p>
+                <ul   className=" technicalSkills-list">
+                    <li>Receive and put away inventory</li>
+                    <li>Ensure product meets quality requirements</li>
+                    <li>Operate industrial pallet driver</li>
+                    <li>Adhere to strict safety, quality, and fulfillment production standards</li>
+                    <li>Push utility carts up to 60 pounds</li>
+
+                </ul>
             </div>
 
           </section>
 
           <section>
-            <h5> courses and education</h5>
-            <p>bootcamp</p>
-            <p>highschool</p>
+          <div className="education-exp">
+            <h5 className="resume-htag" >Education and Courses:</h5>
+            <h6 className="work-exp-title">HighSchool </h6>
+                <p className='work-exp-title'><b>school: </b>IGrad, 2015</p>
+                <ul className=" technicalSkills-list">
+                  <li>school district no.415, King County</li>
+                  <li><a href="">link to a picture on googledrive</a></li>
+                </ul>
+            <h6 className="work-exp-title"> Certificate </h6>
+                <p className='work-exp-title'><b>school: </b>University of Washington</p>
+                <ul className=" technicalSkills-list">
+                  <li>Full-Stack Web Development</li>
+                  <li>In collaboration with Trilogy Education Services</li>
+                  <li><a href="">link to a picture on googledrive</a></li>
+                </ul>
+           </div>
           </section>
-        </div>
 
+          <section>
+            <h5>Personal Interest:</h5>
+          
+                <ul className=" technicalSkills-list">
+                  <li>Video Games</li>
+                  <li>Gardening </li>
+                  <li>Computer Science</li>
+                  <li>Audible Books</li>
+                  <li>Fish Keeping</li>
+                  <li>Have Dogs & Cats</li>
+                                
+                </ul>
+
+          </section>
+
+        </div>
+ 
    
 
       </Card.Body>
