@@ -27,7 +27,7 @@ export default function Resume() {
 
       <div className=" card-body-col1">
       <section className="resume-contactInfo ">
-          <h4 className="resume-htag">Contact Info:</h4>
+          <h4 >Contact Info:</h4>
             <p>Email: <a>jose22gw@gmail.com</a></p>
             <p>Phone #: <a>1800-0000</a></p>
             <p>Located In: <a>Federal way, WA</a></p>
@@ -145,14 +145,14 @@ export default function Resume() {
           </section>
 
           <section>
-            <h5>Personal Interest:</h5>
+            <h5 className="resume-htag">Personal Interest:</h5>
           
                 <ul className=" technicalSkills-list">
                   <li>Video Games</li>
                   <li>Gardening </li>
                   <li>Computer Science</li>
                   <li>Audible Books</li>
-                  <li>Fish Keeping</li>
+                  <li>Aquascaping</li>
                   <li>Have Dogs & Cats</li>
                                 
                 </ul>
