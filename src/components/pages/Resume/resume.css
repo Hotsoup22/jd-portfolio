@@ -9,22 +9,23 @@
     margin-right:-.62em;
     margin-bottom:-1% ;
     text-decoration: underline;
-    background-color:rgb(153, 152, 152);
+    background-color:#afafaf;
     padding: 1%;
-    border-top: solid rgb(62, 2, 2) 5px;
-    border-left: solid rgb(62, 2, 2) 5px;
+    border-top: transparent  rgb(9, 4, 32) 5px;
+    border-left: transparent  rgb(9, 4, 32) 5px;
+    border-top-left-radius: 0%;
 }
 .resume-header-Ptag-Intro{
     display: flex;
     text-align: left;
     margin-left: 2.5%;
-    background-color: rgb(153, 152, 152);
+    background-color: #afafaf;
     padding: 1%;
     padding-right: 7%;
     margin-right:-1.05em;
-    border-bottom: solid rgb(62, 2, 2) 5px;
-    border-left: solid rgb(62, 2, 2) 5px
-
+    border-bottom: transparent  rgb(9, 4, 32) 5px;
+    border-left: transparent  rgb(9, 4, 32) 5px;
+    border-bottom-left-radius: 0%;
     
     /* add media query for iphone screen res */
 }
@@ -118,5 +119,5 @@
 }
 .resume-htag{
 margin-bottom: 10px;
-text-decoration: underline rgb(85, 3, 3);
+text-decoration: underline  rgb(9, 4, 32);
 }
