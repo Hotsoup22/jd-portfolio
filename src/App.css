@@ -16,7 +16,7 @@ nav {
 }
 
 .handlePage {
-  background-color: rgb(61, 61, 61);
+  background-color:#afafaf ;
   text-align: center;
   object-fit: cover;
   justify-content: space-between;
@@ -30,7 +30,6 @@ html {
 .nameTitle {
   text-align: center;
   color: white;
-
   padding-top: 00px;
   position: sticky;
 }
@@ -40,13 +39,15 @@ margin:10px;
   color: rgb(247, 247, 247);
   background-color: grey;
 }
+.nav-link:active{
+  color:red;
+}
 
 .card-body {
   background-color: grey;
 }
 
 .card-title {
-
   border-bottom: solid rgb(0, 0, 0);
 }
 
@@ -70,9 +71,8 @@ margin:10px;
   height: 40px;
 }
 
-
 header {
-  background-color: black;
+  background-color: rgb(9, 4, 32);
 }
 .container {
   padding: 20px;
@@ -82,12 +82,10 @@ header {
   max-width: 90%;
 }
 
-.nav-link {
-  margin: px;
+.nav-link:hover{
   cursor: pointer;
-}
-.nav-link:hover {
   background-color: rgb(61, 61, 61);
+
 }
 
 .aboutMePtag {
@@ -100,3 +98,6 @@ header {
 }
 
 
+.portfolio{
+  background-color:#afafaf;
+}
