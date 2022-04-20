@@ -11,25 +11,25 @@ export default function AboutMe(){
     return (
         <Container  >
             <section>
-                <h2>About Me</h2>
+                
             <img className="profile-pic" src={`${process.env.PUBLIC_URL}/assets/temp-profile-pic.jpg`} alt='pictures goes here' />
-            <p className='aboutMePtag'>  A Full Stack Web-Developer, From conception to production with intuitive design.</p>
+            <p className='aboutMePtag'>  A Full Stack Web-Developer, From conception to production with intuitive designs.</p>
             
             
             <br></br>
            
                     
             {/* random facts about me */}
-            <Card>
+            <Card  bg='dark' text="white">
                 <Card.Header>
                     <h5>Facts About Me!</h5>
                 </Card.Header>
-                <Card.Body>
-                    <textarea placeholder="RANDOM Fact.." defaultValue={choosenFact}></textarea>
+                <Card.Body >
+                    <textarea id="randomFactTextArea" placeholder="RANDOM Fact.." defaultValue={choosenFact}></textarea>
 
                 </Card.Body>
                 <Card.Footer>
-                    <button className="btn randomFactBtn" valeu="" onClick={() => setChoosenFact(randomFact())} >Push</button>
+                    <button  className="btn,randomFactBtn"  onClick={() => setChoosenFact(randomFact())} >Push</button>
                 </Card.Footer>
             </Card>
                 
@@ -90,13 +90,16 @@ var whiteText = {
 // }
 
 let thechoosenFact = []
+let choosenFactIndex = 0
 const randomFact = () => {
     console.log("random Fact function start")
-
+    const randomFactTextArea = document.querySelector("#randomFactTextArea")
     const randomFactsArray = ["Ability to work in a fast-paced and diverse team environment", "Used Computers Since elemntary school, on windows XP!", "self taught how to sodder, and MIG Weld "]
-   const random = Math.floor(Math.random() * randomFactsArray.length);
-   thechoosenFact = randomFactsArray[random]
-    return thechoosenFact
+    const random = Math.floor(Math.random() * randomFactsArray.length);
+
+        thechoosenFact = randomFactsArray[random]
+        return thechoosenFact
+    
 };
 document.querySelector('.btn', randomFact())
 
