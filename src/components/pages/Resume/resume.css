@@ -6,7 +6,7 @@
 .full-Stack-Web-Dev{
     display: flex;
     margin-left:2.5%;
-    margin-right:-.62em;
+    margin-right:-.73em;
     margin-bottom:-1% ;
     text-decoration: underline;
     background-color:#afafaf;
@@ -15,6 +15,11 @@
     border-left: transparent  rgb(9, 4, 32) 5px;
     border-top-left-radius: 0%;
 }
+@media (min-width: 2218px) {
+    .full-Stack-Web-Dev{
+        margin-right:-.60em;
+    }
+   }
 .resume-header-Ptag-Intro{
     display: flex;
     text-align: left;
@@ -100,6 +105,7 @@
 
 .card-Header-Resume{
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-around;
     margin-top: 1.5%;
 
