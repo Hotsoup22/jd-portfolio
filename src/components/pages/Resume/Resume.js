@@ -1,21 +1,19 @@
 import Card from "react-bootstrap/Card";
-import Stack from "react-bootstrap/Stack";
+
 import "./resume.css";
-import profilePic from "../../../assets/temp-profilePic.jpg";
+
 export default function Resume() {
   return (
+    
+   
     <Card bg='dark' className="resumeDiv">
       <Card.Header className="card-Header-Resume">
-        <img
-          src={profilePic}
-          alt="pictures goes here"
-          className="profilePic"
-        ></img>
+       
         <div className="resume-Header-Div">
           <h3 className="full-Stack-Web-Dev">Full-Stack Web Developer</h3>
           <p className=" resume-header-Ptag-Intro">
            
-            Ready to develop databases, create user interfaces, write/test/debug
+            Ready to develop databases, create user interfaces, API's, and write/test/debug
             code. Innovative, Motivated, Equipped With A Certificate In Full
             Stack Web Development, From the University of Washington, And a
             background in machine repair/maintaince, Forever student of
@@ -29,11 +27,11 @@ export default function Resume() {
       <section className="resume-contactInfo ">
           <h4 >Contact Info:</h4>
             <p>Email: <a>jose22gw@gmail.com</a></p>
-            <p>Phone #: <a>1800-0000</a></p>
+            <p>Phone #: <a>206-452-9207</a></p>
             <p>Located In: <a>Federal way, WA</a></p>
-            <p>Website: <a>portfolio</a></p>
-            <p>LinkedIn icon: <a>linkedin</a></p>
-            <p>GitHub Profile: <a>github/Hotsoup22</a></p>
+            <p>Website: <a href="http://localhost:3000/jd-portfolio">Portfolio</a></p>
+            <p>LinkedIn: <a href='https://www.linkedin.com/in/jose-diaz-07043220b/'>linkedin</a></p>
+            <p>GitHub Profile: <a href='https://github.com/Hotsoup22'>github.com/Hotsoup22</a></p>
         </section>
 
           <section className="resume-technicalSkills">
@@ -84,9 +82,6 @@ export default function Resume() {
                         </ul>
           </section>
 
-
-
-
         </div>
 
         <div className="card-body-col2">
@@ -97,16 +92,16 @@ export default function Resume() {
             <div className="work-exp-binford">
                 <h6 className="work-exp-title">BinFord Metals, WA.</h6>
                 <p className='work-exp-title'><b>Role: </b>Repair / Maintaince:</p>
-                <ul   className=" technicalSkills-list">
-                    <li>repaired forklifts mainly</li>
-                    <li>repaired a variety of heavy equiment (bull-dozer's,skid steers, loaders)</li>
-                    <li>fuel systems. (propane, diesal, gasoline)</li>
-                    <li>engine tear-down, rebuilds, and swaps.</li>
-                    <li>hydraulic systems</li>
-                    <li>custom fabrication</li>
-                    <li>electric wirng, patched, updated, or replaced.</li>
-                    <li>digonasing and problem solving was an everyday duty</li>
-
+                <ul className=" technicalSkills-list">
+                    <li>Repaired & maintained forklifts (Hyster, Nissan, Toyota).</li>
+                    <li>Repaired and maintained a variety of heavy-equiment: Bull-Dozer's, Skid-steer loaders, Wheel-Loaders (Cat, Catapillar, Case, John-Deere).</li>
+                    <li>Replaced, maintained, or Rebuilt fuel systems. (propane, diesal, gasoline)</li>
+                    <li>Engine tear-down, Rebuilds, and Engine-Swaps.</li>
+                    <li>Maintained replaced or repaired, Hydraulic systems. </li> 
+                    <li>Custom fabrication for Repair or Maintaince(this included but not limited to [torching, mig-welding, plasma cutting, Drilling])</li>
+                    <li>Greased heavy machinery and semi-trailer trucks.</li>
+                    <li>Electric wiring: patched, updated, or replaced.</li>
+                    <li>Problem-Solving/Problem-Identifying </li>
                 </ul>
             </div>
 
@@ -132,14 +127,14 @@ export default function Resume() {
                 <p className='work-exp-title'><b>school: </b>IGrad, 2015</p>
                 <ul className=" technicalSkills-list">
                   <li>school district no.415, King County</li>
-                  <li><a href="">link to a picture on googledrive</a></li>
+                  
                 </ul>
             <h6 className="work-exp-title"> Certificate </h6>
                 <p className='work-exp-title'><b>school: </b>University of Washington</p>
                 <ul className=" technicalSkills-list">
                   <li>Full-Stack Web Development</li>
                   <li>In collaboration with Trilogy Education Services</li>
-                  <li><a href="">link to a picture on googledrive</a></li>
+                
                 </ul>
            </div>
           </section>
@@ -153,7 +148,7 @@ export default function Resume() {
                   <li>Computer Science</li>
                   <li>Audible Books</li>
                   <li>Aquascaping</li>
-                  <li>Have Dogs & Cats</li>
+                 
                                 
                 </ul>
 
@@ -169,5 +164,6 @@ export default function Resume() {
                 <p></p>
             </Card.Footer> */}
     </Card>
+    
   );
 }
