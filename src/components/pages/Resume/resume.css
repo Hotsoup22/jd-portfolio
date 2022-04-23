@@ -1,18 +1,13 @@
 
 .Card.Header{
-    background-color: #afafaf;
-    
+    background-color: #afafaf;  
 }
 .full-Stack-Web-Dev{
-  
     text-align: center; 
-   
     margin-bottom:-1% ;
     text-decoration: underline;
     background-color:#afafaf;
     padding: 1%;
-  
-   
 }
 /* @media (min-width: 2218px) {
     .full-Stack-Web-Dev{
@@ -25,17 +20,12 @@
     background-color: #afafaf;
     padding: 1%;
     padding-right: 7%;
-   
-
-    
     /* add media query for iphone screen res */
 }
 
 .card-body-resume{
     display: flex;
     justify-content: space-evenly;
- 
-
 }
 /* left side column */
 .card-body-col1{
@@ -75,15 +65,6 @@
     flex-direction: column;
     text-align: right;
 }
-.work-Exp{
-
-
-}
-.work-exp-binford {
-    
-
- 
-}
 .work-exp-title{
     background: #afafaf;
     padding: 5px;
@@ -108,7 +89,6 @@
     /* add media query to flex-wrap: wrap; when on smaller displays */  
      
 }
-
 
 .resume-htag{
 margin-bottom: 10px;
