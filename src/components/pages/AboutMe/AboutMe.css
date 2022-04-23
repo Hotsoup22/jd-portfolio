@@ -1,19 +1,36 @@
-section{
-margin-bottom:1%;
+
+.honorableMention{
+display: flex;
+flex-wrap: wrap;
 }
-.card-aboutme{
-    padding:auto;
-    text-align: start;
-    
+.randomFactBtn{
+    color:white;
 }
-h3{
+#randomFactTextArea{
+    width: 100%;
+    max-height:auto;
+    background-color: darkgrey;
     text-align: center;
-    padding-bottom: 2%;;
+}
+.profilePic{
+    border:.2em double black;
+    border-radius:.5em ;
+    
+    width:175px;
+    height: 175px;
+    /* add media query for 4k */
+}
+.card-aboutme-Header{
+display: flex;
+
+text-align: center;
 }
 .honorableMention{
-    text-align: left;
-    margin-left:5%;
+    margin-right:auto ;
 }
-.info{
-    color:'white';
+.card-aboutme-Body{
+    text-align:center;
+}
+.aboutme-section{
+    margin-bottom:3em ;
 }
