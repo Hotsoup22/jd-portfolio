@@ -4,15 +4,11 @@ import "./resume.css";
 
 export default function Resume() {
   return (
-    
-   
     <Card bg='dark' className="resumeDiv">
-      <Card.Header className="card-Header-Resume">
-       
+      <Card.Header className="card-Header-Resume">  
         <div className="resume-Header-Div">
           <h3 className="full-Stack-Web-Dev">Full-Stack Web Developer</h3>
           <p className=" resume-header-Ptag-Intro">
-           
             Ready to develop databases, create user interfaces, API's, and write/test/debug
             code. Innovative, Motivated, Equipped With A Certificate In Full
             Stack Web Development, From the University of Washington, And a
