@@ -3,13 +3,14 @@ import React from 'react';
 // import { MDBRipple } from 'mdb-react-ui-kit';
 
 const page = [
-    {
+{
     id: 1,
-    name: 'About Me'
+    name: 'My-Projects'
 },
 {
+
     id: 2,
-    name: 'My-Projects'
+    name: 'About Me'
 },
 // {
 //     id: 3,
@@ -21,13 +22,10 @@ const page = [
 }
 ];
 export default function Nav( { currentPage, handlePageChange }){
-    return (
-        <div className='navDiv'>
-             
-            <nav>
+    return (    
+            <nav className='navDiv'>
               {page.map( ( page ) => (
 				<li key={page.name}>
-                    
 					<a
 						href={'#' + page.name}
 						onClick={() => handlePageChange( page.name )}
@@ -38,6 +36,5 @@ export default function Nav( { currentPage, handlePageChange }){
 				</li>
 			) )}
             </nav>
-        </div>
     )
 }
