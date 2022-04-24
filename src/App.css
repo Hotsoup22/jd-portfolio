@@ -34,14 +34,21 @@ html {
   position: sticky;
 }
 a.nav-link {
-border-radius: 10%;
-margin:10px;
-  color: rgb(247, 247, 247);
-  background-color: grey;
+  border-radius: 2%;
+  margin:5px;
+  color:white;
+  background-color:    rgb(9, 4, 32);
+  ;
+
 }
-.nav-link:active{
-  color:red;
+a.nav-link:hover {
+background-color: #828282;
 }
+a.nav-link:active {
+background-color:  rgb(9, 4, 32);
+}
+
+
 
 .card-body {
   background-color: grey;
@@ -85,7 +92,6 @@ header {
 .nav-link:hover{
   cursor: pointer;
   background-color: rgb(61, 61, 61);
-
 }
 
 .aboutMePtag {
