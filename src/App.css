@@ -1,72 +1,32 @@
 .row {
   margin: 2rem;
 }
-
-.navDiv {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  list-style-type: none;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-
-}
-
 .handlePage {
-  background-color:#afafaf ;
+  background-color:white ;
   text-align: center;
   object-fit: cover;
   justify-content: space-between;
 }
-
-
 html {
-  background-color: rgb(61, 61, 61);
+  background-color: white;
 }
-
-.nameTitle {
-  text-align: center;
-  color: white;
-  padding-top: 00px;
-  position: sticky;
-}
-a.nav-link {
-  border-radius: 2%;
-  margin:5px;
-  color:white;
-  background-color:    rgb(9, 4, 32);
-  ;
-
-}
-a.nav-link:hover {
-background-color: #828282;
-}
-a.nav-link:active {
-background-color:  rgb(9, 4, 32);
-}
-
-
-
 .card-body {
-  background-color: grey;
+  background-color: white;
+  
 }
 
 .card-title {
-  border-bottom: solid rgb(0, 0, 0);
+  color:white;
 }
 
 .card-text {
   border-radius: 5px;
+  
 }
 
 .btn-group {
   background-color: #000000;
-  max-width: auto;
-  border-radius: 10px;
-  margin:5px;
+  border-radius: 5px;
 }
 
 .footerDiv {
@@ -78,32 +38,89 @@ background-color:  rgb(9, 4, 32);
   height: 40px;
 }
 
-header {
-  background-color: rgb(9, 4, 32);
-}
-.container {
-  padding: 20px;
-}
+
 .card {
   margin: auto;
-  max-width: 90%;
+  margin-top: 3%;
+  
+
 }
+
+header {
+  background-color: #616161;
+  display: flex;
+  justify-content: center;
+ 
+}
+/* Nav */
 
 .nav-link:hover{
   cursor: pointer;
   background-color: rgb(61, 61, 61);
 }
+.nameTitle {
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin-right:auto;
+  padding-left:20px;
+}
+a.nav-link {
+  border-radius: 5%;
+  margin:2px;
+  color:black;
+  background-color:    #828282;
+  font-weight: 300;
+}
 
+@media (max-width: 621px) {
+  a.nav-link {
+    height: 60px;
+  }
+}a.nav-link {
+  border-radius: 5%;
+  margin:2px;
+  color:black;
+  background-color:    #828282;
+  font-weight: 300;
+}
+a.nav-link:hover {
+background-color: #828282;
+}
+a.nav-link:active {
+background-color:  rgb(9, 4, 32);
+}
+.navDiv {
+  display: flex;
+  list-style-type: none;
+}
+/* About Me */
 .aboutMePtag {
   color: white;
   font-size: larger;
   font-weight: bold;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 2;
   position: relative;
 }
 
 
-.portfolio{
-  background-color:#afafaf;
+
+/* my-projects styles */
+.container.myProjectsCard {
+padding: 0;
+
+
 }
+
+.myProjects-Title{
+
+
+
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* border-bottom-left-radius:500% ;
+  border-bottom-right-radius: 500%;
+  background-image: linear-gradient(#5c5c5c,white); */
+
+}
+
