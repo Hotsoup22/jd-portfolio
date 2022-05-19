@@ -11,22 +11,36 @@ export default function ProjectCard({
   repoUrl,
   description,
   features,
-  technology,
+  browserBasedTechnologies,
+  databases,
+  serverSideDevelopment,
+  aPIDesign,
+  deploymentAndDelivery,
 }) {
   return (
-    <Container className="container">
-            <Card bg='dark' >
+    <Container  className="container  myProjectsCard">
+            <Card bg="dark"  >
+            <Card.Header text='light' className="card-title">{title}</Card.Header>
+            
               <a href={liveUrl}><Card.Img className=" project-image"
                 variant="top"
                 src={`${process.env.PUBLIC_URL}/assets/${image}`}
                 alt="Application Image"
               /></a>
-              <Card.Body>
-                <Card.Title className="card-title">{title}</Card.Title>
+              <Card.Body className="myProjectsCard-body">
+                
 
                 <p className="description"><b>Description:</b> {description}</p>  
                 <p className="features"><b>Features:</b> {features}</p>
-                <p className="technologies"><b>Technologies:</b> {technology}</p>
+
+                    <ul className=" technologies-List">
+                      <li><span className="technologies-List-liTitle">Browser Based Technologies: </span>{browserBasedTechnologies}</li>  
+                      <li><span className="technologies-List-liTitle">Database: </span>{databases}</li>  
+                      <li><span className="technologies-List-liTitle">Server Side Development: </span>{serverSideDevelopment}</li>  
+                      <li><span className="technologies-List-liTitle">API Design: </span>{aPIDesign}</li>  
+                      <li><span className="technologies-List-liTitle">Deployment And Delivery: </span>{deploymentAndDelivery}</li>  
+                    </ul>              
+
                   <ButtonGroup>
                     <a
                       rel="noreferrer"
