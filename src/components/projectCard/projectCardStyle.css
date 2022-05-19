@@ -1,0 +1,20 @@
+.myProjectsCard-body{
+    background-color: #828282;
+}
+.technologies-List{
+    border: rgb(141, 141, 141) solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left ;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style-type: none; 
+    padding:5px;
+}
+.technologies-List li{
+    margin: 2px;
+    background-color: rgb(117, 116, 116);
+    }
+.technologies-List-liTitle{
+    font-weight: 600;
+}
