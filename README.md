@@ -2,14 +2,14 @@
 
 ## Description
 
-Create a portfolio using React! I used `create-react-app`  to get started on a single-page application. You can view my portfilio, resume , contact info, and about me. rendered conditonally.
+Create a portfolio single-page application, using React.
 
 
 
 
 ## Usage
 Live Site: https://hotsoup42.github.io/jd-portfolio/
-![liveSite Screenshot](public/assets/screenshotLivesite.PNG)
+![liveSite Screenshot](public/assets/live-PortfolioApp-screenshot-v3.png)
 
 
 ## License
