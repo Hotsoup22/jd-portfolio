@@ -1,12 +1,12 @@
 
-.Card.Header{
-    background-color: #afafaf;  
-}
+
 .full-Stack-Web-Dev{
     text-align: center; 
-    margin-bottom:-1% ;
-    text-decoration: underline;
-    background-color:#afafaf;
+    display: block;
+    width: auto;
+
+
+
     padding: 1%;
 }
 /* @media (min-width: 2218px) {
@@ -17,7 +17,7 @@
 .resume-header-Ptag-Intro{
     display: flex;
     text-align: center;
-    background-color: #afafaf;
+
     padding: 1%;
     padding-right: 7%;
     /* add media query for iphone screen res */
@@ -26,6 +26,8 @@
 .card-body-resume{
     display: flex;
     justify-content: space-evenly;
+    
+
 }
 /* left side column */
 .card-body-col1{
@@ -41,21 +43,25 @@
     padding: 5px;
     margin: 5px;
     text-align: left;
+    border-radius: 5px;
 }
 .resume-technicalSkills{
     text-align: left;
+    
 }
 .technicalSkills-list{
     list-style-type: none;
     margin-bottom: 5%;
     padding-left:0;
-  ;
+    
+  
 
 }
 .technicalSkills-list li{
     background: #afafaf;
     padding: 5px;
     margin: 5px;
+    border-radius: 5px;
     
 }
 
@@ -70,13 +76,14 @@
     padding: 5px;
     margin: 5px; 
     margin-left:5px;  
+    border-radius: 5px;
 }
 .work-exp-binford li{
     list-style-type: none;
    text-align: right;
     background: #afafaf;
     padding: 5px;
-
+    border-radius: 5px;
     margin: 5px;
 }
 
