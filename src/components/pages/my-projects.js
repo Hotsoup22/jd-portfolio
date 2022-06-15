@@ -60,9 +60,9 @@ const applications= [
 {
     title:"README Generator",
     image:"readMeGen.PNG",
-    liveUrl:"N/A",
+    liveUrl:"https://github.com/Hotsoup22/README-Generator",
     repoUrl:"https://github.com/hotsoup42/README-Generator",
-    description:"Create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.",
+    description:"Create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. Note: this app does not have a live page, as this is a command line interface program.",
     features:"Complete a short questioner and it will automatically create a ReadMe.md for your project.",
     technologies: `JavaScript, inquirer`,
     browserBasedTechnologies:`HTML, CSS, JavaScript, jquery`,
