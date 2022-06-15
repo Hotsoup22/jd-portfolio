@@ -4,7 +4,7 @@ import "./resume.css";
 
 export default function Resume() {
   return (
-    <Card bg='dark' className="resumeDiv">
+    <Card bg='light' className="resumeDiv">
       <Card.Header className="card-Header-Resume">  
         <div className="resume-Header-Div">
           <h3 className="full-Stack-Web-Dev">Full-Stack Web Developer</h3>
@@ -12,7 +12,7 @@ export default function Resume() {
             Ready to develop databases, create user interfaces, API's, and write/test/debug
             code. Innovative, Motivated, Equipped With A Certificate In Full
             Stack Web Development, From the University of Washington, And a
-            background in machine repair/maintaince, Forever student of
+            background in machine repair/maintenance, Forever student of
             computer science.
           </p>
         </div>
@@ -87,16 +87,14 @@ export default function Resume() {
 
             <div className="work-exp-binford">
                 <h6 className="work-exp-title">BinFord Metals, WA.</h6>
-                <p className='work-exp-title'><b>Role: </b>Repair / Maintaince:</p>
+                <p className='work-exp-title'><b>Role: </b>Repair / maintenance:</p>
                 <ul className=" technicalSkills-list">
-                    <li>Repaired & maintained forklifts (Hyster, Nissan, Toyota).</li>
-                    <li>Repaired and maintained a variety of heavy-equiment: Bull-Dozer's, Skid-steer loaders, Wheel-Loaders (Cat, Catapillar, Case, John-Deere).</li>
-                    <li>Replaced, maintained, or Rebuilt fuel systems. (propane, diesal, gasoline)</li>
+             
+                    <li>Repaired and maintained a variety of heavy-equipment: Bull-Dozer's, Skid-steer loaders, Wheel-Loaders, Forklifts </li>
                     <li>Engine tear-down, Rebuilds, and Engine-Swaps.</li>
                     <li>Maintained replaced or repaired, Hydraulic systems. </li> 
-                    <li>Custom fabrication for Repair or Maintaince(this included but not limited to [torching, mig-welding, plasma cutting, Drilling])</li>
-                    <li>Greased heavy machinery and semi-trailer trucks.</li>
-                    <li>Electric wiring: patched, updated, or replaced.</li>
+                    <li>Custom fabrication for Repair or Maintenance(this included but not limited to [torching, mig-welding, plasma cutting, Drilling])</li>
+                    <li>Greased semi-trailer trucks.</li>
                     <li>Problem-Solving/Problem-Identifying </li>
                 </ul>
             </div>
