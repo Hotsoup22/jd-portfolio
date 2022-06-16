@@ -22,9 +22,9 @@ export default function Resume() {
       <div className=" card-body-col1">
       <section className="resume-contactInfo ">
           <h4 >Contact Info:</h4>
-            <p>Email: <a>jose22gw@gmail.com</a></p>
-            <p>Phone #: <a>206-452-9207</a></p>
-            <p>Located In: <a>Federal way, WA</a></p>
+            <p>Email: jose22gw@gmail.com</p>
+            <p>Phone #: 206-452-9207</p>
+            <p>Located In: Federal way, WA</p>
             <p>Website: <a href="http://localhost:3000/jd-portfolio">Portfolio</a></p>
             <p>LinkedIn: <a href='https://www.linkedin.com/in/jose-diaz-07043220b/'>linkedin</a></p>
             <p>GitHub Profile: <a href='https://github.com/Hotsoup22'>github.com/Hotsoup22</a></p>
