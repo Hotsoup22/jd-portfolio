@@ -95,7 +95,7 @@ const applications= [
 export default function MyProjects(){
     return (
             <div className='projectCard portfolio'  >
-               <CardHeader>Projects</CardHeader>
+               <CardHeader>My-Projects</CardHeader>
             {applications.map( ( applicationsMap , index) => (
             <ProjectCard  key={index}
                 title={applicationsMap.title}
