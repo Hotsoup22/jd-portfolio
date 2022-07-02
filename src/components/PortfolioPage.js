@@ -1,5 +1,5 @@
 import Header from './Header';
-import Footer from './Footer';
+// import Footer from './Footer';
 import Resume from './pages/Resume/Resume'
 import AboutMe from './pages/AboutMe/AboutMe.js'
 // import Contact from './pages/ContactInfo'
@@ -27,7 +27,7 @@ export default function PortfolioPage(){
        <div className='handlePage bg-image'  >
             <Header currentPage={currentPage} handlePageChange={handlePageChange}  />
             {renderPage()}
-            <Footer />
+         
         </div>
     )
 }
