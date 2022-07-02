@@ -1,17 +1,25 @@
-import Navi from "./Navi"
+import Navi from "./Navi";
 
-export default function Header({ currentPage, handlePageChange }){
-    return(
-        <div  >
-            <header  >
-               
-                <h1 className="nameTitle">Jose E. Diaz - Portfolio</h1>
-                <Navi currentPage={currentPage} handlePageChange={handlePageChange}/>
-                <div>
-                                 
-        </div>
-            </header>
-        </div>
+const Header = ({ currentPage, handlePageChange }) => {
+//   if (currentPage === "Resume") {
+//     return (
+//       <div>
+//         <nav>
+//           <Navi currentPage={currentPage} handlePageChange={handlePageChange} />
+       
+//         </nav>
+//       </div>
+//     );
+//   } else {
+    return (
    
-    )
-}
+        <header>
+      
+          <Navi currentPage={currentPage} handlePageChange={handlePageChange} />
+
+        </header>
+
+    );
+  }
+
+export default Header;
