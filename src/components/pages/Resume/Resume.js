@@ -1,163 +1,174 @@
 import Card from "react-bootstrap/Card";
-
+import "../../Header";
 import "./resume.css";
 
 export default function Resume() {
   return (
-    <Card bg='light' className="resumeDiv">
-      <Card.Header className="card-Header-Resume">  
-        <div className="resume-Header-Div">
-          <h3 className="full-Stack-Web-Dev">Full-Stack Web Developer</h3>
-          <p className=" resume-header-Ptag-Intro">
-            Ready to develop databases, create user interfaces, API's, and write/test/debug
-            code. Innovative, Motivated, Equipped With A Certificate In Full
-            Stack Web Development, From the University of Washington, And a
-            background in machine repair/maintenance, Forever student of
-            computer science.
-          </p>
-        </div>
-      </Card.Header>
-      <Card.Body className="card-body-resume">
-
-      <div className=" card-body-col1">
+    <Card className="resumeCard">
+      <h3 className="resume-nameTitle">Jose E. Diaz</h3>
       <section className="resume-contactInfo ">
-          <h4 >Contact Info:</h4>
-            <p>Email: jose22gw@gmail.com</p>
-            <p>Phone #: 206-452-9207</p>
-            <p>Located In: Federal way, WA</p>
-            <p>Website: <a href="http://localhost:3000/jd-portfolio">Portfolio</a></p>
-            <p>LinkedIn: <a href='https://www.linkedin.com/in/jose-diaz-07043220b/'>linkedin</a></p>
-            <p>GitHub Profile: <a href='https://github.com/Hotsoup22'>github.com/Hotsoup22</a></p>
+        <p>
+          <b>Email</b>: jose22gw@gmail.com
+        </p>
+        <p>
+          <b>Phone #: </b>206-452-9207
+        </p>
+        <p>
+          <b>Located In:</b> Federal way, WA
+        </p>
+        <p>
+          <a href="http://localhost:3000/jd-portfolio">Portfolio</a>
+        </p>
+        <p>
+          <a href="https://www.linkedin.com/in/jose-diaz-07043220b/">
+            linkedin
+          </a>
+        </p>
+        <p>
+          <a href="https://github.com/Hotsoup22">github.com/Hotsoup22</a>
+        </p>
+      </section>
+
+      <Card.Body className="">
+        <h5 className="resume-htag">SUMMARY:</h5>
+        <p className=" resume-summary">
+          Ready to develop databases, create user interfaces, APIs, and
+          write/test/debug code. Innovative, Motivated, Equipped With A
+          Certificate In Full Stack Web Development, From the University of
+          Washington, And a background in machine repair/maintenance, problem
+          solver, forever student of computer science.
+        </p>
+
+        <h5 className="resume-htag">TECHNICAL EXPERIENCE:</h5>
+        <section className="resume-list">
+          <ul className="resume-ul ">
+            <h6 className="resume-skillsHtag">
+              <b>API Design:</b>
+            </h6>
+
+            <li>Client-Server Model</li>
+            <li>API</li>
+            <li>Rest</li>
+            <li>JSON</li>
+            <li>AJAX (Fetch API)</li>
+            <li>HTTP request methods</li>
+            <li>GraphQL</li>
+          </ul>
+
+          <ul className="resume-ul ">
+            <h6 className="resume-skillsHtag">
+              {" "}
+              <b>Browser Based Technologies:</b>
+            </h6>
+
+            <li>HTML/CSS</li>
+            <li>JavaScript/jQuery</li>
+            <li>Bootstrap</li>
+            <li>React.js</li>
+            <li>Progressive Web Applications (PWAs)</li>
+            <li>Local Storage, Session Storage, IndexedDB</li>
+          </ul>
+
+          <ul className="resume-ul">
+            <h6 className="resume-skillsHtag">
+              <b>Deployment and Delivery:</b>
+            </h6>
+            <li>Heroku</li>
+            <li>Git</li>
+            <li>GitHub Pages</li>
+            <li>Shell Scripting</li>
+            <li>Continuous Integration</li>
+            <li>Linting</li>
+          </ul>
+
+          <ul className="resume-ul">
+            <h6 className="resume-skillsHtag">
+              {" "}
+              <b>Server Side Development:</b>{" "}
+            </h6>
+            <li>Template Engines</li>
+            <li>MongoDB</li>
+            <li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
+          </ul>
+
+          <ul className="resume-ul">
+            <h6 className="resume-skillsHtag">
+              {" "}
+              <b>Databases:</b>{" "}
+            </h6>
+            <li>MySQL/NoSQL</li>
+            <li>MongoDB</li>
+          </ul>
         </section>
 
-          <section className="resume-technicalSkills">
-            <h5 className="resume-htag">Technical Skills:</h5>
-                      
-                            <h6>Browser Based Technologies</h6>
-                        <ul className="technicalSkills-list">
-                            <li>HTML/CSS</li>
-                            <li>JavaScript/jQuery</li>
-                            <li>Bootstrap</li>
-                            <li>React.js</li>
-                            <li>Progressive Web Applications (PWAs)</li>
-                            <li>Local Storage, Session Storage, IndexedDB</li>
-                        </ul>
-                        <ul className="technicalSkills-list">
-                            <h6>Databases</h6>
-
-                            <li>MySQL/NoSQL</li>
-                            <li>MongoDB</li>
-                        </ul>
-                        <ul className="technicalSkills-list">
-                            <h6>Server Side Development</h6>
-
-                            <li>Template Engines</li>
-                            <li>MongoDB</li>
-                            <li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
-                        </ul>
-                        <ul className="technicalSkills-list">
-                            <h6>API Design</h6>
-
-                            <li>Client-Server Model</li>
-                            <li>API</li>
-                            <li>Rest</li>
-                            <li>JSON</li>
-                            <li>AJAX (Fetch API)</li>
-                            <li>HTTP request methods</li>
-                            <li>GraphQL</li>
-                        </ul>
-                        <ul className="technicalSkills-list">
-                            <h6>Deployment and Delivery</h6>
-
-                            <li>Heroku</li>
-                            <li>Git</li>
-                            <li>GitHub Pages</li>
-                            <li>Shell Scripting</li>
-                            <li>Continuous Integration</li>
-                            <li>Linting</li>
-                        </ul>
-          </section>
-
-        </div>
-
         <div className="card-body-col2">
-
           <section className="work-Exp">
-            <h4 className="resume-htag">Work Experience:</h4>
+            <h4 className="resume-htag">PROFESSIONAL EXPERIENCE:</h4>
 
             <div className="work-exp-binford">
-                <h6 className="work-exp-title">BinFord Metals, WA.</h6>
-                <p className='work-exp-title'><b>Role: </b>Repair / maintenance:</p>
-                <ul className=" technicalSkills-list">
-             
-                    <li>Repaired and maintained a variety of heavy-equipment: Bull-Dozer's, Skid-steer loaders, Wheel-Loaders, Forklifts </li>
-                    <li>Engine tear-down, Rebuilds, and Engine-Swaps.</li>
-                    <li>Maintained replaced or repaired, Hydraulic systems. </li> 
-                    <li>Custom fabrication for Repair or Maintenance(this included but not limited to [torching, mig-welding, plasma cutting, Drilling])</li>
-                    <li>Greased semi-trailer trucks.</li>
-                    <li>Problem-Solving/Problem-Identifying </li>
-                </ul>
+              <h6 className="resume-skillsHtag">
+                <b>BinFord Metals</b> Kent, WA.
+              </h6>
+              <p className="work-exp-title">Repair / maintenance:</p>
+              <ul className=" resume-ul">
+                <li>Repaired and maintained a variety of heavy-equipment</li>
+                <li>Engine tear-down, Rebuilds, and Engine-Swaps.</li>
+                <li>Maintained replaced or repaired, Hydraulic systems. </li>
+                <li>Custom fabrication for Repair or Maintenance</li>
+                <li>Problem-Solving/Problem-Identifying </li>
+              </ul>
             </div>
 
             <div className="work-exp-amazon">
-            <h6 className="work-exp-title">Amazon Fufillment, WA.</h6>
-                <p className='work-exp-title'><b>Role: </b>Fulfillment Associate</p>
-                <ul   className=" technicalSkills-list">
-                    <li>Receive and put away inventory</li>
-                    <li>Ensure product meets quality requirements</li>
-                    <li>Operate industrial pallet driver</li>
-                    <li>Adhere to strict safety, quality, and fulfillment production standards</li>
-                    <li>Push utility carts up to 60 pounds</li>
+              <h6 className="resume-skillsHtag">
+                <b>Amazon Fufillment</b>, Kent, WA.
+              </h6>
+              <p className="work-exp-title">Fulfillment Associate</p>
+              <ul className=" resume-ul">
+                <li>Receive and put away inventory</li>
+                <li>Ensure product meets quality requirements</li>
+                <li>Operate industrial pallet driver</li>
+                <li>
+                  Adhere to strict safety, quality, and fulfillment production
+                  standards
+                </li>
+                <li>Push utility carts up to 60 pounds</li>
+              </ul>
+            </div>
+          </section>
 
-                </ul>
+          <section>
+            <div className="educationDiv">
+              <h5 className="resume-htag">Education:</h5>
+
+              <p className="">IGrad Academy, Kent, WA</p>
+              <ul className=" resume-ul">
+                <li>Diploma, school district no.415, King County</li>
+                <li>August 24, 2015</li>
+              </ul>
             </div>
 
+            <div className="educationDiv">
+              <h5 className="resume-htag">Certificate: </h5>
+              <p className="">University of Washington</p>
+              <ul className=" resume-ul">
+                <li>UW Professional & Continuing Education</li>
+                <li>Full-Stack Web Development</li>
+              </ul>
+            </div>
           </section>
 
-          <section>
-          <div className="education-exp">
-            <h5 className="resume-htag" >Education and Courses:</h5>
-            <h6 className="work-exp-title">HighSchool </h6>
-                <p className='work-exp-title'><b>school: </b>IGrad, 2015</p>
-                <ul className=" technicalSkills-list">
-                  <li>school district no.415, King County</li>
-                  
-                </ul>
-            <h6 className="work-exp-title"> Certificate </h6>
-                <p className='work-exp-title'><b>school: </b>University of Washington</p>
-                <ul className=" technicalSkills-list">
-                  <li>Full-Stack Web Development</li>
-                  <li>In collaboration with Trilogy Education Services</li>
-                
-                </ul>
-           </div>
-          </section>
-
-          <section>
+          {/* <div className='pagebreak'></div> */}
+          <section className="personalInterestSection">
             <h5 className="resume-htag">Personal Interest:</h5>
-          
-                <ul className=" technicalSkills-list">
-                  <li>Video Games</li>
-                  <li>Gardening </li>
-                  <li>Computer Science</li>
-                  <li>Audible Books</li>
-                  <li>Aquascaping</li>
-                 
-                                
-                </ul>
-
+            <ul className=" resume-ul">
+              <li>Video Games</li>
+              <li>Horticulture</li>
+              <li>Computer Science</li>
+            </ul>
           </section>
-
         </div>
- 
-   
-
       </Card.Body>
-      {/* <Card.Footer>
-            
-                <p></p>
-            </Card.Footer> */}
     </Card>
-    
   );
 }
