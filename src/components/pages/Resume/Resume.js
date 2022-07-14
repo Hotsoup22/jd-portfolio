@@ -2,41 +2,41 @@ import Card from "react-bootstrap/Card";
 import "../../Header";
 import "./resume.css";
 
+
 export default function Resume() {
   return (
     <Card className="resumeCard">
       <h3 className="resume-nameTitle">Jose E. Diaz</h3>
       <section className="resume-contactInfo ">
         <p>
-          <b>Email</b>: jose22gw@gmail.com
+         jose22gw@gmail.com
         </p>
         <p>
-          <b>Phone #: </b>206-452-9207
+          206-452-9207
         </p>
         <p>
-          <b>Located In:</b> Federal way, WA
+        Federal way, WA
         </p>
         <p>
-          <a href="http://localhost:3000/jd-portfolio">Portfolio</a>
+          <a href="https://jd22--portfolio.herokuapp.com/#Resumea">Portfolio</a>
         </p>
         <p>
           <a href="https://www.linkedin.com/in/jose-diaz-07043220b/">
-            linkedin
+            Linkedin
           </a>
         </p>
         <p>
-          <a href="https://github.com/Hotsoup22">github.com/Hotsoup22</a>
+          <a href="https://github.com/Hotsoup22">Github</a>
         </p>
       </section>
 
       <Card.Body className="">
-        <h5 className="resume-htag">SUMMARY:</h5>
+        
         <p className=" resume-summary">
-          Ready to develop databases, create user interfaces, APIs, and
-          write/test/debug code. Innovative, Motivated, Equipped With A
-          Certificate In Full Stack Web Development, From the University of
-          Washington, And a background in machine repair/maintenance, problem
-          solver, forever student of computer science.
+          A motivated software engineering graduate from the University of Washington Coding Bootcamp 
+          Program with fundamental knowledge of software design, APIs, user interfaces, and debugging 
+          methods. Seeking to utilize proven analytical, technical, and programming skills to thrive as a software 
+          engineer.
         </p>
 
         <h5 className="resume-htag">TECHNICAL EXPERIENCE:</h5>
@@ -87,7 +87,6 @@ export default function Resume() {
               <b>Server Side Development:</b>{" "}
             </h6>
             <li>Template Engines</li>
-            <li>MongoDB</li>
             <li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
           </ul>
 
@@ -100,39 +99,37 @@ export default function Resume() {
             <li>MongoDB</li>
           </ul>
         </section>
-
+   
         <div className="card-body-col2">
           <section className="work-Exp">
             <h4 className="resume-htag">PROFESSIONAL EXPERIENCE:</h4>
 
             <div className="work-exp-binford">
-              <h6 className="resume-skillsHtag">
-                <b>BinFord Metals</b> Kent, WA.
+              <h6 className="work-exp-title">
+                 REPAIR MAINTENANCE, BINFORD METALS
               </h6>
-              <p className="work-exp-title">Repair / maintenance:</p>
+              <p className="">April 2016 – MAY 2018 AND JUNE 2019-OCTOBER 2020 Kent, WA </p>
               <ul className=" resume-ul">
-                <li>Repaired and maintained a variety of heavy-equipment</li>
-                <li>Engine tear-down, Rebuilds, and Engine-Swaps.</li>
-                <li>Maintained replaced or repaired, Hydraulic systems. </li>
-                <li>Custom fabrication for Repair or Maintenance</li>
-                <li>Problem-Solving/Problem-Identifying </li>
+                <li>Heavy equipment and machinery repair and maintenance</li>
+                <li>Engine installations (tear-down, rebuilds, and swaps)</li>
+                <li>Diagnostics</li>
+                <li>Custom fabrication for Repair</li>
               </ul>
             </div>
 
             <div className="work-exp-amazon">
-              <h6 className="resume-skillsHtag">
-                <b>Amazon Fufillment</b>, Kent, WA.
+            <h6 className="work-exp-title">
+            FULLFILLMENT ASSOCIATE, AMAZON FULLFILLMENT 
               </h6>
-              <p className="work-exp-title">Fulfillment Associate</p>
+              <p className="">SEPTEMBER 2018-MAY 2019, Kent, WA</p>
               <ul className=" resume-ul">
-                <li>Receive and put away inventory</li>
-                <li>Ensure product meets quality requirements</li>
-                <li>Operate industrial pallet driver</li>
+                <li>Inventory</li>
+                <li>Quality Assurance</li>
+                <li>Industrial pallet driver</li>
                 <li>
                   Adhere to strict safety, quality, and fulfillment production
                   standards
                 </li>
-                <li>Push utility carts up to 60 pounds</li>
               </ul>
             </div>
           </section>
@@ -141,20 +138,16 @@ export default function Resume() {
             <div className="educationDiv">
               <h5 className="resume-htag">Education:</h5>
 
-              <p className="">IGrad Academy, Kent, WA</p>
-              <ul className=" resume-ul">
-                <li>Diploma, school district no.415, King County</li>
-                <li>August 24, 2015</li>
-              </ul>
+              <p className="">HIGH-SCHOOL DIPLOMA, IGRAD </p>
+              <p>KENT, WA JUNE 2015</p>
+             
             </div>
 
             <div className="educationDiv">
               <h5 className="resume-htag">Certificate: </h5>
-              <p className="">University of Washington</p>
-              <ul className=" resume-ul">
-                <li>UW Professional & Continuing Education</li>
-                <li>Full-Stack Web Development</li>
-              </ul>
+              <p className="">FULL STACK WEB DEVELOPMENT CERTIFICATE, UNIVERSITY OF WASHINGTON</p>
+              <p>SEATTLE, WA OCTOBER 2021</p>
+              
             </div>
           </section>
 
