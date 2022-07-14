@@ -1,80 +1,77 @@
-
-.resumeCard{
-    margin-top: 0%;
-    padding-left: 10%;
-    padding-right: 10%;
-    height: 100%;
+.resumeCard {
+  margin-top: 0%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 100%;
 }
-.resumeCard li{
-    margin:1%;
-
+.resumeCard li {
+  margin: 1%;
 }
-.resume-nameTitle{
-    margin-top: 3%;
+.resume-nameTitle {
+  margin-top: 3%;
 }
 
-.resume-contactInfo{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;  
-}
-    
-.resume-summary{
-    text-align: left;
-    margin-top: 3%;
-    margin-bottom: 3%;
+.resume-contactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.resume-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 5%;
-}
-.resume-list li{
-    text-align: left;
-    list-style:circle
-}
-.resume-ul{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    flex:1 1 0px;
-    margin:10px;
-}
-.resume-ul li{   
-    width: 100%;  
-}
-.resume-htag{
-    text-align: left;
-    margin-bottom: 20px;
-    border-bottom: solid black 2px;
-}
-.resume-skillsHtag{
-    text-align: left;
-}
-.work-Exp{
-    text-align: left;
-    width: auto;
-}
-.work-exp-title{
-    margin-top: 2%;
-    font-weight: 600;
-}
-.educationDiv{
-    text-align: left;
-}
-.personalInterestSection{
-    text-align: left;
+.resume-summary {
+  text-align: left;
+  margin-bottom: 3%;
 }
 
-.work-exp-binford{
-    margin-bottom:3%;
+.resume-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
 }
-.work-exp-amazon{
-    margin-bottom: 3%;
+.resume-list li {
+  text-align: left;
+  list-style: circle;
 }
-.educationDiv{
-    margin-bottom: 3%;
+.resume-ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1 1 0px;
+  margin: 10px;
+}
+.resume-ul li {
+  width: 100%;
+}
+.resume-htag {
+  text-align: left;
+  margin-bottom: 20px;
+  border-bottom: solid black 2px;
+}
+.resume-skillsHtag {
+  text-align: left;
+}
+.work-Exp {
+  text-align: left;
+  width: auto;
+}
+.work-exp-title {
+  margin-top: 2%;
+  font-weight: 600;
+}
+.educationDiv {
+  text-align: left;
+}
+.personalInterestSection {
+  text-align: left;
+}
+
+.work-exp-binford {
+  margin-bottom: 3%;
+}
+.work-exp-amazon {
+  margin-bottom: 3%;
+}
+.educationDiv {
+  margin-bottom: 3%;
 }
