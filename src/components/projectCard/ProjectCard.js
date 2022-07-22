@@ -41,12 +41,13 @@ export default function ProjectCard({
                       <li><span className="technologies-List-liTitle">Deployment And Delivery: </span>{deploymentAndDelivery}</li>  
                     </ul>              
 
-                  <ButtonGroup>
+                  <ButtonGroup variant="primary">
                     <a
+               
                       rel="noreferrer"
                       href={liveUrl}
                       target="_blank"
-                      className="btn btn-sm btn-outline-secondary"
+                      className="btn btn-sm btn-outline-primary"
                     >
                       View Live App
                     </a>
@@ -54,7 +55,7 @@ export default function ProjectCard({
                       rel="noreferrer"
                       href={repoUrl}
                       target="_blank"
-                      className="btn btn-sm btn-outline-secondary"
+                      className="btn btn-sm btn-outline-primary"
                     >
                       GitHub Repository
                     </a>
