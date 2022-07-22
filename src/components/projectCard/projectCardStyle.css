@@ -1,8 +1,8 @@
 .myProjectsCard-body{
-    background-color: #828282;
+    background-color: #ededed;
 }
 .technologies-List{
-    border: rgb(141, 141, 141) solid 2px;
+    border: rgb(191, 191, 191) solid 1px;
     display: flex;
     flex-wrap: wrap;
     text-align: left ;
@@ -13,7 +13,7 @@
 }
 .technologies-List li{
     margin: 2px;
-    background-color: rgb(117, 116, 116);
+    background-color: rgb(227, 227, 227);
     }
 .technologies-List-liTitle{
     font-weight: 600;
