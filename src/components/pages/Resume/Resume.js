@@ -1,22 +1,16 @@
-import Card from "react-bootstrap/Card";
-import "../../Header";
-import "./resume.css";
+import Card from 'react-bootstrap/Card'
+import '../../Header'
+import './resume.css'
+import React from 'react'
 
-
-export default function Resume() {
+export default function Resume () {
   return (
     <Card className="resumeCard">
       <h3 className="resume-nameTitle">Jose E. Diaz</h3>
       <section className="resume-contactInfo ">
-        <p>
-         jose22gw@gmail.com
-        </p>
-        <p>
-          206-452-9207
-        </p>
-        <p>
-        Federal way, WA
-        </p>
+        <p>jose22gw@gmail.com</p>
+        <p>206-452-9207</p>
+        <p>Federal way, WA</p>
         <p>
           <a href="https://jd22--portfolio.herokuapp.com/#Resumea">Portfolio</a>
         </p>
@@ -31,20 +25,19 @@ export default function Resume() {
       </section>
 
       <Card.Body className="">
-        
         <p className=" resume-summary">
-          A motivated software engineering graduate from the University of Washington Coding Bootcamp 
-          Program with fundamental knowledge of software design, APIs, user interfaces, and debugging 
-          methods. Seeking to utilize proven analytical, technical, and programming skills to thrive as a software 
-          engineer.
+          A motivated software engineering graduate from the University of
+          Washington Coding Bootcamp Program with fundamental knowledge of
+          software design, APIs, user interfaces, and debugging methods. Seeking
+          to utilize proven analytical, technical, and programming skills to
+          thrive as a software engineer.
         </p>
 
         <h5 className="resume-htag">TECHNICAL EXPERIENCE:</h5>
         <section className="resume-list">
-          
           <ul className="resume-ul ">
             <h6 className="resume-skillsHtag">
-              {" "}
+              {' '}
               <b>Browser Based Technologies:</b>
             </h6>
             <li>HTML/CSS</li>
@@ -83,8 +76,7 @@ export default function Resume() {
 
           <ul className="resume-ul">
             <h6 className="resume-skillsHtag">
-              {" "}
-              <b>Server Side Development:</b>{" "}
+              <b>Server Side Development:</b>
             </h6>
             <li>Template Engines</li>
             <li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
@@ -92,8 +84,8 @@ export default function Resume() {
 
           <ul className="resume-ul">
             <h6 className="resume-skillsHtag">
-              {" "}
-              <b>Databases:</b>{" "}
+              {' '}
+              <b>Databases:</b>{' '}
             </h6>
             <li>MySQL/</li>
             <li>NoSQL</li>
@@ -103,16 +95,18 @@ export default function Resume() {
             <li>IndexedDB</li>
           </ul>
         </section>
-   
+
         <div className="card-body-col2">
           <section className="work-Exp">
             <h4 className="resume-htag">PROFESSIONAL EXPERIENCE:</h4>
 
             <div className="work-exp-binford">
               <h6 className="work-exp-title">
-                 REPAIR MAINTENANCE, BINFORD METALS
+                REPAIR MAINTENANCE, BINFORD METALS
               </h6>
-              <p className="">April 2016 – MAY 2018 AND JUNE 2019-OCTOBER 2020 Kent, WA </p>
+              <p className="">
+                April 2016 – MAY 2018 AND JUNE 2019-OCTOBER 2020 Kent, WA{' '}
+              </p>
               <ul className=" resume-ul">
                 <li>Heavy equipment and machinery repair and maintenance</li>
                 <li>Engine installations (tear-down, rebuilds, and swaps)</li>
@@ -122,8 +116,8 @@ export default function Resume() {
             </div>
 
             <div className="work-exp-amazon">
-            <h6 className="work-exp-title">
-            FULLFILLMENT ASSOCIATE, AMAZON FULLFILLMENT 
+              <h6 className="work-exp-title">
+                FULLFILLMENT ASSOCIATE, AMAZON FULLFILLMENT
               </h6>
               <p className="">SEPTEMBER 2018-MAY 2019, Kent, WA</p>
               <ul className=" resume-ul">
@@ -144,14 +138,14 @@ export default function Resume() {
 
               <h6 className="work-exp-title">HIGH-SCHOOL DIPLOMA, IGRAD </h6>
               <p>KENT, WA JUNE 2015</p>
-             
             </div>
 
             <div className="educationDiv">
               <h5 className="resume-htag">Certificate: </h5>
-              <h6 className="work-exp-title">FULL STACK WEB DEVELOPMENT CERTIFICATE, UNIVERSITY OF WASHINGTON</h6>
+              <h6 className="work-exp-title">
+                FULL STACK WEB DEVELOPMENT CERTIFICATE, UNIVERSITY OF WASHINGTON
+              </h6>
               <p>SEATTLE, WA OCTOBER 2021</p>
-              
             </div>
           </section>
 
@@ -167,5 +161,5 @@ export default function Resume() {
         </div>
       </Card.Body>
     </Card>
-  );
+  )
 }

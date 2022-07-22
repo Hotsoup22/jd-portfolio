@@ -1,25 +1,12 @@
-import Navi from "./Navi";
+import Navi from './Navi'
+import React from 'react'
 
 const Header = ({ currentPage, handlePageChange }) => {
-//   if (currentPage === "Resume") {
-//     return (
-//       <div>
-//         <nav>
-//           <Navi currentPage={currentPage} handlePageChange={handlePageChange} />
-       
-//         </nav>
-//       </div>
-//     );
-//   } else {
-    return (
-   
-        <header>
-      
-          <Navi currentPage={currentPage} handlePageChange={handlePageChange} />
+  return (
+    <header>
+      <Navi currentPage={currentPage} handlePageChange={handlePageChange} />
+    </header>
+  )
+}
 
-        </header>
-
-    );
-  }
-
-export default Header;
+export default Header
