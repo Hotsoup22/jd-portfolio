@@ -3,31 +3,30 @@
 }
 
 /* Nav */
-nav{
-  background-color:#f6f6f6;
+nav {
+  background-color: #f6f6f6;
   display: flex;
   justify-content: center;
 }
-.nav-link:hover{
+.nav-link:hover {
   cursor: pointer;
   background-color: rgb(61, 61, 61);
 }
 a.nav-link {
-  margin:2px;
-  color:black;
+  margin: 2px;
+  color: black;
   font-weight: 300;
 }
 a.nav-link:hover {
-background-color: #f0f0f0;
-  color:#000000
+  background-color: #f0f0f0;
+  color: #000000;
 }
 a.nav-link:active {
-background-color:  rgb(211, 211, 211);
+  background-color: rgb(211, 211, 211);
 }
 .navDiv {
   display: flex;
   list-style-type: none;
-
 }
 @media (max-width: 621px) {
   a.nav-link {
@@ -36,21 +35,16 @@ background-color:  rgb(211, 211, 211);
 }
 
 /* my-projects styles */
-.myProjects-header{
- 
-  
-}
-.myProjects-Title{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.myProjects-Title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .card {
   margin-top: 3%;
 }
 .card-title {
-  color:white;
+  color: white;
 }
 .btn-group {
-  
   border-radius: 5px;
 }
 
@@ -59,9 +53,11 @@ background-color:  rgb(211, 211, 211);
   color: white;
   font-size: larger;
   font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 2;
   position: relative;
 }
 
-.hidden{display: none;}
+.hidden {
+  display: none;
+}
