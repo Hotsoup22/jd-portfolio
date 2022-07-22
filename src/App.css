@@ -37,7 +37,8 @@ background-color:  rgb(211, 211, 211);
 
 /* my-projects styles */
 .myProjects-header{
-  margin-right: 192px;
+ 
+  
 }
 .myProjects-Title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,7 +50,7 @@ background-color:  rgb(211, 211, 211);
   color:white;
 }
 .btn-group {
-  background-color: #161616;
+  
   border-radius: 5px;
 }
 
