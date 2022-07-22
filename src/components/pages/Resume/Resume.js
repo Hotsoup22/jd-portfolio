@@ -41,6 +41,20 @@ export default function Resume() {
 
         <h5 className="resume-htag">TECHNICAL EXPERIENCE:</h5>
         <section className="resume-list">
+          
+          <ul className="resume-ul ">
+            <h6 className="resume-skillsHtag">
+              {" "}
+              <b>Browser Based Technologies:</b>
+            </h6>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>React.js</li>
+            <li>Progressive Web Applications (PWAs)</li>
+          </ul>
+
           <ul className="resume-ul ">
             <h6 className="resume-skillsHtag">
               <b>API Design:</b>
@@ -53,20 +67,6 @@ export default function Resume() {
             <li>AJAX (Fetch API)</li>
             <li>HTTP request methods</li>
             <li>GraphQL</li>
-          </ul>
-
-          <ul className="resume-ul ">
-            <h6 className="resume-skillsHtag">
-              {" "}
-              <b>Browser Based Technologies:</b>
-            </h6>
-
-            <li>HTML/CSS</li>
-            <li>JavaScript/jQuery</li>
-            <li>Bootstrap</li>
-            <li>React.js</li>
-            <li>Progressive Web Applications (PWAs)</li>
-            <li>Local Storage, Session Storage, IndexedDB</li>
           </ul>
 
           <ul className="resume-ul">
@@ -95,8 +95,12 @@ export default function Resume() {
               {" "}
               <b>Databases:</b>{" "}
             </h6>
-            <li>MySQL/NoSQL</li>
+            <li>MySQL/</li>
+            <li>NoSQL</li>
             <li>MongoDB</li>
+            <li>Local Storage</li>
+            <li>Session Storage</li>
+            <li>IndexedDB</li>
           </ul>
         </section>
    
@@ -138,26 +142,26 @@ export default function Resume() {
             <div className="educationDiv">
               <h5 className="resume-htag">Education:</h5>
 
-              <p className="">HIGH-SCHOOL DIPLOMA, IGRAD </p>
+              <h6 className="work-exp-title">HIGH-SCHOOL DIPLOMA, IGRAD </h6>
               <p>KENT, WA JUNE 2015</p>
              
             </div>
 
             <div className="educationDiv">
               <h5 className="resume-htag">Certificate: </h5>
-              <p className="">FULL STACK WEB DEVELOPMENT CERTIFICATE, UNIVERSITY OF WASHINGTON</p>
+              <h6 className="work-exp-title">FULL STACK WEB DEVELOPMENT CERTIFICATE, UNIVERSITY OF WASHINGTON</h6>
               <p>SEATTLE, WA OCTOBER 2021</p>
               
             </div>
           </section>
 
-          {/* <div className='pagebreak'></div> */}
           <section className="personalInterestSection">
             <h5 className="resume-htag">Personal Interest:</h5>
             <ul className=" resume-ul">
               <li>Video Games</li>
               <li>Horticulture</li>
               <li>Computer Science</li>
+              <li>Information Technology</li>
             </ul>
           </section>
         </div>
