@@ -8,8 +8,8 @@ Create a portfolio single-page application, using React.
 
 
 ## Usage
-Live Site: https://hotsoup42.github.io/jd-portfolio/
-![liveSite Screenshot](public/assets/live-PortfolioApp-screenshot-v3.png)
+Live Site: https://jd22--portfolio.herokuapp.com/
+![liveSite Screenshot](public/assets/liveApp-screenshot.jpg)
 
 
 ## License
