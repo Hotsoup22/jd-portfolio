@@ -9,7 +9,7 @@ Create a portfolio single-page application, using React.
 
 ## Usage
 Live Site: https://jd22--portfolio.herokuapp.com/
-![liveSite Screenshot](public/assets/liveApp-screenshot.jpg)
+![liveSite Screenshot](src/assets/liveApp-screenshot.jpg)
 
 
 ## License
