@@ -10,7 +10,12 @@ const applications = [
     repoUrl: 'https://github.com/hotsoup42/shelf-life',
     description:
       "The objective of this app is to give the user A effective way of tracking food item's experation date.",
-    features: 'store food items on a list with category, track expiration date of items, color coded depending on how close the expiration date is, create personal account.',
+    features: [
+      'store food items on a list with category ',
+      'track expiration date of items',
+      'color coded depending on how close the expiration date is',
+      'create personal account.'
+    ],
     browserBasedTechnologies: 'HTML, CSS, JavaScript',
     databases: 'SQL: mysql2',
     serverSideDevelopment: 'NODE.js (packages): bcrypt, express, express-handlebars, express-session, connect-session-sequelize, sequelize, dotenv, luxon, nodemon',
@@ -43,9 +48,12 @@ const applications = [
     liveUrl: 'https://password-generator0.herokuapp.com/',
     repoUrl: 'https://github.com/Hotsoup22/password-Gen-v2',
     description: 'A Easy to use Password Generator',
-    features:
-      'Simple intuative design, running on react. Create passwords by checking boxes, entering password length.',
-
+    features: [
+      'Simple intuative design ',
+      'run on react ',
+      'Create passwords by checking boxes ',
+      'entering password length '
+    ],
     browserBasedTechnologies: 'HTML, CSS, React, JavaScript,',
     databases: 'Future dev.update.',
     serverSideDevelopment: 'NODE.js (packages): react, react-bootstrap, react-dom-react-scripts, web-vitals',
@@ -58,11 +66,11 @@ const applications = [
     liveUrl: 'https://mohamedmesahel.github.io/Calendar/index.html',
     repoUrl: 'https://github.com/hotsoup42/Calendar',
     description:
-      'Create tasks and local events, then track them on the Calendar. ',
+      'Create tasks and local events, then track them on the Calendar ',
     features: [
       'event creator, ',
       'Weather search by city name, ',
-      'display US Holidays.'
+      'display US Holidays '
     ],
     browserBasedTechnologies: 'HTML, CSS, Bulma, JavaScript, jquery, Moment.js.',
     databases: ' localStorage.get/set()',
@@ -77,8 +85,10 @@ const applications = [
     repoUrl: 'https://github.com/hotsoup42/README-Generator',
     description:
       "Create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. Note: this app does not have a live page, as this is a command line interface program.",
-    features:
-      'Complete a short questioner and it will automatically create a ReadMe.md for your project.',
+    features: [
+      'Complete a short questioner ',
+      'automatically create a ReadMe.md'
+    ],
     technologies: 'JavaScript, inquirer',
     browserBasedTechnologies: 'HTML, CSS, JavaScript, jquery',
     databases: 'Creates local .md file.',
@@ -93,8 +103,10 @@ const applications = [
     repoUrl: 'https://github.com/hotsoup42/Note-Taker',
     description:
       'Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.',
-    features: 'Write, Save, Delete Notes.',
-    technologies: '',
+    features: [
+      'Write',
+      'Save ',
+      'Delete Notes '],
     browserBasedTechnologies: 'HTML, CSS, JavaScript',
     databases: 'local json file',
     serverSideDevelopment: 'Node.js (packages): express, nodemon',
