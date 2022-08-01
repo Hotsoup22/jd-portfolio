@@ -8,11 +8,11 @@ export default function Resume () {
     <Card className="resumeCard">
       <h3 className="resume-nameTitle">Jose E. Diaz</h3>
       <section className="resume-contactInfo ">
-        <p>jose22gw@gmail.com</p>
+        <p>Jose22gw@gmail.com</p>
         <p>206-452-9207</p>
         <p>Federal way, WA</p>
         <p>
-          <a href="https://jd22--portfolio.herokuapp.com/#Resumea">Portfolio</a>
+          <a href="https://jd22--portfolio.herokuapp.com/#Resume">Portfolio</a>
         </p>
         <p>
           <a href="https://www.linkedin.com/in/jose-diaz-07043220b/">
@@ -37,7 +37,6 @@ export default function Resume () {
         <section className="resume-list">
           <ul className="resume-ul ">
             <h6 className="resume-skillsHtag">
-              {' '}
               <b>Browser Based Technologies:</b>
             </h6>
             <li>HTML/CSS</li>
