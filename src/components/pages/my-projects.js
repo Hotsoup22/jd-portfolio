@@ -9,12 +9,12 @@ const applications = [
     liveUrl: 'https://shelf-life-206.herokuapp.com/',
     repoUrl: 'https://github.com/hotsoup42/shelf-life',
     description:
-      "The objective of this app is to give the user A effective way of tracking food item's experation date.",
+      'App was develop with the intent of reducing waste and helping save money. Track food items by experation date.',
     features: [
-      'store food items on a list with category ',
-      'track expiration date of items',
-      'color coded depending on how close the expiration date is',
-      'create personal account.'
+      'Add items to a list with category. ',
+      'Track expiration date of items. ',
+      'Color coded, depending on expiration date. ',
+      'Create personal account.'
     ],
     browserBasedTechnologies: 'HTML, CSS, JavaScript',
     databases: 'SQL: mysql2',
@@ -30,10 +30,10 @@ const applications = [
     description:
       'To build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts ',
     features: [
-      'Create a Account, Log-in.',
-      ' A homepage where you can view posts from posted by anyone.',
-      " Custom dashboard with User's personal post's. ",
-      'Add & Delete Post from dashboard'
+      'A homepage where you can view posts from posted by anyone. ',
+      "Custom dashboard with User's personal post's. ",
+      'Add & Delete Post from dashboard. ',
+      'Create a Account. '
     ],
     technologies: 'HTML, JavaScript, css, Sequelize,  mysql2, express, handlebars',
     browserBasedTechnologies: 'HTML, CSS, JavaScript',
@@ -47,12 +47,12 @@ const applications = [
     image: 'scrnShot-password-gen-v2.png',
     liveUrl: 'https://password-generator0.herokuapp.com/',
     repoUrl: 'https://github.com/Hotsoup22/password-Gen-v2',
-    description: 'A Easy to use Password Generator',
+    description: 'A Easy to use Password Generator.',
     features: [
-      'Simple intuative design ',
-      'run on react ',
-      'Create passwords by checking boxes ',
-      'entering password length '
+      'Simple intuative design. ',
+      'Runs on react, ',
+      'Custom passwords by check box choice, ',
+      'Enter Spassword length. '
     ],
     browserBasedTechnologies: 'HTML, CSS, React, JavaScript,',
     databases: 'Future dev.update.',
@@ -68,9 +68,9 @@ const applications = [
     description:
       'Create tasks and local events, then track them on the Calendar ',
     features: [
-      'event creator, ',
+      'Event creator, ',
       'Weather search by city name, ',
-      'display US Holidays '
+      'Display U.S Holidays. '
     ],
     browserBasedTechnologies: 'HTML, CSS, Bulma, JavaScript, jquery, Moment.js.',
     databases: ' localStorage.get/set()',
@@ -86,8 +86,8 @@ const applications = [
     description:
       "Create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. Note: this app does not have a live page, as this is a command line interface program.",
     features: [
-      'Complete a short questioner ',
-      'automatically create a ReadMe.md'
+      'Complete a short questioner, ',
+      'Automatically create a ReadMe.md'
     ],
     technologies: 'JavaScript, inquirer',
     browserBasedTechnologies: 'HTML, CSS, JavaScript, jquery',
@@ -104,9 +104,9 @@ const applications = [
     description:
       'Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.',
     features: [
-      'Write',
-      'Save ',
-      'Delete Notes '],
+      'Write, ',
+      'Save, ',
+      'Delete Notes. '],
     browserBasedTechnologies: 'HTML, CSS, JavaScript',
     databases: 'local json file',
     serverSideDevelopment: 'Node.js (packages): express, nodemon',
