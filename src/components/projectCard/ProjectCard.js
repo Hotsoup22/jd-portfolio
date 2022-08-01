@@ -38,9 +38,17 @@ export default function ProjectCard ({
             <b>Description:</b> {description}
           </p>
           <p className="features">
-            <b>Features:</b> {features}
+            <b>Features:</b>{' '}
           </p>
-
+          <ul className="featureUl">
+            {features.map(function (feature) {
+              return (
+                <li className="featureLi" key={feature.id}>
+                  {feature}
+                </li>
+              )
+            })}
+          </ul>
           <ul className=" technologies-List">
             <li>
               <span className="technologies-List-liTitle">
@@ -53,7 +61,7 @@ export default function ProjectCard ({
               {databases}
             </li>
             <li>
-              <span className='technologies-List-liTitle'>
+              <span className="technologies-List-liTitle">
                 Server Side Development:
               </span>
               {serverSideDevelopment}
