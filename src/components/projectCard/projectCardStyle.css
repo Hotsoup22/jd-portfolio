@@ -18,3 +18,15 @@
 .technologies-List-liTitle{
     font-weight: 600;
 }
+.featureUl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.featureLi {
+    margin:2px;
+    margin-right:20px;
+    list-style-type:circle;
+
+}
