@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 // import { MDBRipple } from 'mdb-react-ui-kit';
 
 const page = [
@@ -39,4 +40,9 @@ export default function Nav ({ currentPage, handlePageChange }) {
       ))}
     </nav>
   )
+}
+
+Nav.propTypes = {
+  currentPage: PropTypes.string,
+  handlePageChange: PropTypes.func
 }
