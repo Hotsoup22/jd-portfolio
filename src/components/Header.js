@@ -1,5 +1,6 @@
 import Navi from './Navi'
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const Header = ({ currentPage, handlePageChange }) => {
   return (
@@ -10,3 +11,8 @@ const Header = ({ currentPage, handlePageChange }) => {
 }
 
 export default Header
+
+Header.propTypes = {
+  currentPage: PropTypes.string,
+  handlePageChange: PropTypes.func
+}
