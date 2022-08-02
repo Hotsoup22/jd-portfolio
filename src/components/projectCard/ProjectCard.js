@@ -16,7 +16,8 @@ export default function ProjectCard ({
   databases,
   serverSideDevelopment,
   aPIDesign,
-  deploymentAndDelivery
+  deploymentAndDelivery,
+  index
 }) {
   return (
     <Container className="container  myProjectsCard">
@@ -38,17 +39,11 @@ export default function ProjectCard ({
             <b>Description:</b> {description}
           </p>
           <p className="features">
-            <b>Features:</b>{' '}
+            <b>Features:</b>
           </p>
-          <ul className="featureUl">
-            {features.map(function (feature) {
-              return (
-                <li className="featureLi" key={feature.id}>
-                  {feature}
-                </li>
-              )
-            })}
-          </ul>
+          <ul className='featureUl'>
+            {listFeatures(features)}
+            </ul>
           <ul className=" technologies-List">
             <li>
               <span className="technologies-List-liTitle">
@@ -101,6 +96,10 @@ export default function ProjectCard ({
     </Container>
   )
 }
+const listFeatures = (features) => features.map(function (features, index) {
+  return <li key={index} className='featureLi'>{features}</li>
+}
+)
 
 ProjectCard.propTypes = {
   title: PropTypes.string,
@@ -113,5 +112,6 @@ ProjectCard.propTypes = {
   databases: PropTypes.string,
   serverSideDevelopment: PropTypes.string,
   aPIDesign: PropTypes.string,
-  deploymentAndDelivery: PropTypes.string
+  deploymentAndDelivery: PropTypes.string,
+  index: PropTypes.string
 }
