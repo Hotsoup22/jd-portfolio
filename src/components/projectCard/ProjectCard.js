@@ -22,9 +22,9 @@ export default function ProjectCard ({
   return (
     <Container className="container  myProjectsCard">
       <Card bg="dark">
-        <Card.Header text="light" className="card-title">
+        <header className="card-title" >
           {title}
-        </Card.Header>
+        </header>
 
         <a href={liveUrl}>
           <Card.Img
