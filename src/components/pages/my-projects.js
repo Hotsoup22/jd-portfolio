@@ -52,7 +52,7 @@ const applications = [
       'Simple intuative design. ',
       'Runs on react, ',
       'Custom passwords by check box choice, ',
-      'Enter Spassword length. '
+      'Enter password length. '
     ],
     browserBasedTechnologies: 'HTML, CSS, React, JavaScript,',
     databases: 'Future dev.update.',
