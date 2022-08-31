@@ -1,13 +1,15 @@
 # jd-portfolio
 
-## Description
-
-Create a portfolio, single-page application using React.
+ a portfolio, single-page application using React.
 
 ## Usage
  please visit the live site: https://jd22--portfolio.herokuapp.com/
 ![liveSite Screenshot](src/assets/liveApp-screenshot.jpg)
 
+## Built with
+
+- react: JavaScript library for building user interfaces.
+- react-bootstrap: front-end framework
 
 ## License
 
