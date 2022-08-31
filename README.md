@@ -2,10 +2,10 @@
 
 ## Description
 
-Create a portfolio single-page application, using React.
+Create a portfolio, single-page application using React.
 
 ## Usage
-Live Site: https://jd22--portfolio.herokuapp.com/
+ please visit the live site: https://jd22--portfolio.herokuapp.com/
 ![liveSite Screenshot](src/assets/liveApp-screenshot.jpg)
 
 
@@ -20,7 +20,6 @@ Live Site: https://jd22--portfolio.herokuapp.com/
 
 
 ## contact
-Github: https://github.com/hotsoup42/jd-portfolio
+Email: jose22gw@gmail.com
 
-## Futher Development
-will be updated regulary as projects get updated/created.
+
