@@ -1,6 +1,7 @@
 # jd-portfolio
 
- a portfolio, single-page application using React.
+- Portfolio, single-page application using React.
+- Where you can see my work as a Full Stack Web Developer.
 
 ## Usage
  please visit the live site: https://jd22--portfolio.herokuapp.com/
