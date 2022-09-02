@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 // import { MDBRipple } from 'mdb-react-ui-kit';
-
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import Container from 'react-bootstrap/Container'
 const page = [
   {
     id: 1,
@@ -20,9 +22,11 @@ const page = [
     name: 'Resume'
   }
 ]
-export default function Nav ({ currentPage, handlePageChange }) {
+export default function Navi ({ currentPage, handlePageChange }) {
   return (
-    <nav className="navDiv">
+    <Navbar className='navbar'>
+    <Container className='navContainer'>
+    <Nav className="navDiv m-auto">
       {page.map((page) => (
         <li key={page.name}>
           <a
@@ -38,11 +42,13 @@ export default function Nav ({ currentPage, handlePageChange }) {
           </a>
         </li>
       ))}
-    </nav>
+          </Nav>
+          </Container>
+          </Navbar>
   )
 }
 
-Nav.propTypes = {
+Navi.propTypes = {
   currentPage: PropTypes.string,
   handlePageChange: PropTypes.func
 }
