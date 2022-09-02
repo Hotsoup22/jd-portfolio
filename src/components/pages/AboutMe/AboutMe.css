@@ -22,6 +22,10 @@
     width: 100%;
 }
 
+.contactMe-button{
+  margin-right: 3%;
+}
+
 /*star background effects  */
 .bg {
   background: url("../../../assets/NGC_6914.jpg") no-repeat;
