@@ -115,26 +115,34 @@ const applications = [
   }
 ]
 
-export default function MyProjects () {
+export default function MyProjects() {
   return (
-    <div className="projectCard portfolio">
+    <div>
       <CardHeader className="myProjects-header">My-Projects</CardHeader>
-      {applications.map((applicationsMap, index) => (
-        <ProjectCard
-          key={index}
-          title={applicationsMap.title}
-          image={applicationsMap.image}
-          liveUrl={applicationsMap.liveUrl}
-          repoUrl={applicationsMap.repoUrl}
-          description={applicationsMap.description}
-          features={applicationsMap.features}
-          browserBasedTechnologies={applicationsMap.browserBasedTechnologies}
-          databases={applicationsMap.databases}
-          serverSideDevelopment={applicationsMap.serverSideDevelopment}
-          aPIDesign={applicationsMap.aPIDesign}
-          deploymentAndDelivery={applicationsMap.deploymentAndDelivery}
-        />
-      ))}
+      <div className='myprojects-IntroDiv'>
+
+      </div>
+      <div className="applicationsDiv">
+        {applications.map((applicationsMap, index) => (
+          <ProjectCard
+            key={index}
+            title={applicationsMap.title}
+            image={applicationsMap.image}
+            liveUrl={applicationsMap.liveUrl}
+            repoUrl={applicationsMap.repoUrl}
+            description={applicationsMap.description}
+            features={applicationsMap.features}
+            browserBasedTechnologies={applicationsMap.browserBasedTechnologies}
+            databases={applicationsMap.databases}
+            serverSideDevelopment={applicationsMap.serverSideDevelopment}
+            aPIDesign={applicationsMap.aPIDesign}
+            deploymentAndDelivery={applicationsMap.deploymentAndDelivery}
+          />
+        ))}
+      </div>
+      <footer className='footer'>
+        Contact me: Jose22gw@gmail.com
+      </footer>
     </div>
   )
 }
