@@ -1,59 +1,25 @@
 .aboutMe-Title {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.honorableMention {
-  display: flex;
-  flex-wrap: wrap;
-}
-.randomFactBtn {
-  color: white;
-}
-#randomFactTextArea {
-  width: 100%;
-  max-height: auto;
-  background-color: #828282;
-  text-align: center;
-  border: none;
-}
 
-.card-aboutme-Header {
-  display: flex;
-  text-align: center;
-}
-
-.card-aboutme-Body {
-  text-align: center;
-  background-color: #828282;
-  color: black;
-}
-.aboutme-section {
-  margin-bottom: 3em;
-}
-.factsAboutMeCardBody {
-  background-color: #828282;
-}
-/*  */
 .aboutme-intro-Div {
-  margin-top: 3em;
+  margin-top: 5em;
   padding: 2em;
-  color: white;
-  font-weight: 800;
-  font-size: x-large;
-  padding-left:15%;
-  padding-right: 15%;
+  font-weight: bold;
+  font-size:135%;
+  background-color: rgba(201, 76, 76, 0.24) ;
+  color: #ffffff;
+}
+
+.introDiv-title{
+  font-size:140%;
 }
 .aboutme-header-Div {
   margin-left: 20px;
   color: white;
 }
 .buttonContainer-div {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
-}
-.button {
-  margin-right: 1%;
 }
 
 /*star background effects  */
