@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card'
 import '../projectCard/projectCardStyle.css'
-import Container from 'react-bootstrap/Container'
+// import Container from 'react-bootstrap/Container'
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
 import React from 'react'
 import PropTypes from 'prop-types'
@@ -20,8 +20,7 @@ export default function ProjectCard ({
   index
 }) {
   return (
-    <Container className="container  myProjectsCard">
-      <Card bg="dark">
+      <Card bg="dark" className="projectCard">
         <header className="card-title" >
           {title}
         </header>
@@ -93,7 +92,7 @@ export default function ProjectCard ({
           </ButtonGroup>
         </Card.Body>
       </Card>
-    </Container>
+
   )
 }
 const listFeatures = (features) => features.map(function (features, index) {
