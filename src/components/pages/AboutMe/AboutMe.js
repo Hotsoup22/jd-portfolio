@@ -5,7 +5,7 @@ import gitHubIcon from '../../../assets/github.svg'
 import linkInIcon from '../../../assets/linkedin.svg'
 import trueEmailIcon from '../../../assets/envelope-fill.svg'
 
-export default function AboutMe() {
+export default function AboutMe () {
   return (
     <div>
 

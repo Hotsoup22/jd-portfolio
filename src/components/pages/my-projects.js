@@ -115,7 +115,7 @@ const applications = [
   }
 ]
 
-export default function MyProjects() {
+export default function MyProjects () {
   return (
     <div>
       <CardHeader className="myProjects-header">My-Projects</CardHeader>
