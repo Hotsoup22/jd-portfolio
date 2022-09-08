@@ -4,77 +4,53 @@
   padding-right: 10%;
   height: 100%;
 }
-.resumeCard li {
-  margin: 1%;
-}
+
 .resume-nameTitle {
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 1%;
 }
 
-.resume-contactInfo {
+.contactInfoDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+/* .resume-contactInfo {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-}
-
+} */
 .resume-summary {
   text-align: left;
-  margin-bottom: 2em;
+}
+.technicalSkillsDiv{
+  text-align: left;
+}
+.projectsToolsUsed{
+  display: flex;
+  margin-bottom: 15px;
+}
+.projects{
+  text-align: left;
 }
 
-.resume-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 5%;
-}
-.resume-list li {
-  text-align: left;
-  list-style: circle;
-}
-.resume-ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  flex: 1 1 0px;
-  margin: 10px;
-}
-.resume-ul li {
-  width: 100%;
-}
 .resume-htag {
-  text-align: left;
-  margin-bottom: 20px;
-  border-bottom: solid black 2px;
-}
-.resume-skillsHtag {
-  text-align: left;
-  color: rgb(1, 120, 1);
+  text-align: center;
 }
 .work-Exp {
   text-align: left;
-  width: auto;
 }
-.work-exp-title {
-  color: rgb(1, 120, 1);
-  margin-top: 2%;
-  font-weight: 600;
-}
+
 .educationDiv {
-  text-align: left;
-}
-.personalInterestSection {
   text-align: left;
 }
 
-.work-exp-binford {
-  margin-bottom: 3%;
+.work-expDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.work-exp-amazon {
-  margin-bottom: 3%;
-}
-.educationDiv {
-  margin-bottom: 3%;
+.app-Link{
+  text-decoration:none;
+  color: inherit;
 }
