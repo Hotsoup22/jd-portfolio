@@ -48,7 +48,17 @@ a.nav-link:focus{
 .btn-group {
   border-radius: 5px;
 }
+.projectCard {
+  max-width: 500px;
+  margin: 10px
+} 
 
+.applicationsDiv {
+  margin-top: 2%;
+  display:flex ;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 /* About Me */
 .aboutMePtag {
   color: white;
@@ -63,19 +73,7 @@ a.nav-link:focus{
   display: none;
 }
 
-.applicationsDiv{
-  margin-top: 2%;
-display:flex ;
-flex-flow: row wrap;
-justify-content: center;
-
-}
-.projectCard{
-max-width: 500px;
-margin: 10px
-
-} 
-.footer{
+.footer {
   background-color: rgba(7, 7, 7, 0);
   color: rgb(0, 0, 0);
   text-align: center;
