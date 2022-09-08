@@ -2,6 +2,7 @@ import Header from './Header'
 // import Footer from './Footer';
 import Resume from './pages/Resume/Resume'
 import AboutMe from './pages/AboutMe/AboutMe.js'
+import ContactMe from './pages/ContactMe/ContactMe.js'
 // import Contact from './pages/ContactInfo'
 import MyProjects from './pages/my-projects'
 import { useState, React } from 'react'
@@ -14,6 +15,8 @@ export default function PortfolioPage () {
     switch (currentPage) {
       case 'About Me':
         return <AboutMe />
+      case 'Contact Me':
+        return <ContactMe/>
       case 'Resume':
         return <Resume />
       default:
