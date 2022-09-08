@@ -13,12 +13,12 @@ const page = [
     id: 2,
     name: 'About Me'
   },
-  // {
-  //     id: 3,
-  //     name: 'Contact'
-  // },
   {
     id: 3,
+    name: 'Contact Me'
+  },
+  {
+    id: 4,
     name: 'Resume'
   }
 ]
