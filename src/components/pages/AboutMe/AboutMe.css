@@ -3,6 +3,7 @@
 }
 
 .aboutme-intro-Div {
+  text-align: center;
   margin-top: 5em;
   padding: 2em;
   font-weight: bold;
@@ -15,7 +16,7 @@
   font-size:140%;
 }
 .aboutme-header-Div {
-  margin-left: 20px;
+  text-align: center;
   color: white;
 }
 .buttonContainer-div {
@@ -24,6 +25,25 @@
 
 .contactMe-button{
   margin-right: 3%;
+}
+
+.aboutMePtag  {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+.buttonContainer-div{
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 /*star background effects  */
