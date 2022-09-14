@@ -1,5 +1,5 @@
 .handlePage {
-  text-align: center;
+
 }
 
 /* Nav */
@@ -26,18 +26,19 @@ a.nav-link:focus{
 }
 
 /* my-projects styles */
+.myProjects-header{
+  text-align: center;
+}
 .myProjects-Title {
+  
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.myprojects-IntroDiv{
-  margin-top: 2%;
-  margin-left: 6%;
-  text-align: left;
+.myProjectsCard-body{
+  text-align: center;
 }
-.card {
-  margin-top: 3%;
-}
+
 .card-title {
+  text-align: center;
   color: white;
 }
 .buttonContainer-div{
@@ -59,22 +60,4 @@ a.nav-link:focus{
   flex-flow: row wrap;
   justify-content: center;
 }
-/* About Me */
-.aboutMePtag {
-  color: white;
-  font-size: larger;
-  font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 2;
-  position: relative;
-}
 
-.hidden {
-  display: none;
-}
-
-.footer {
-  background-color: rgba(7, 7, 7, 0);
-  color: rgb(0, 0, 0);
-  text-align: center;
-}
