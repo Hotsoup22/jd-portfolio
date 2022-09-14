@@ -1,0 +1,154 @@
+
+.pageBackground{
+
+}
+.contactMeCard{
+ 
+    margin-top: 1%;
+    padding-bottom: 20%;
+
+}
+.contactMe-title{
+    font-family: 'Ultra';
+    padding-top: 2%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.staticInfoDiv p{
+    margin-bottom: 20%;
+    font-size: 1em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px #666
+
+}
+.staticInfoDiv a{
+    text-decoration: none;
+    color: #000000;
+}
+.disone{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-evenly;
+}
+
+
+
+
+
+
+
+/* @media screen and (min-width:2000px) {
+    .staticInfoDiv p{
+        margin-bottom:60%;
+    }
+}  */
+@media screen and (max-width:1200px) {
+    .contactMeImg {
+        width:300px
+    }
+} 
+/* @media screen and (m-width:1280px) {
+    .staticInfoDiv p{
+ 
+        font-size: 1.5em;
+    }
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html{
+    background-color: teal;
+}
+.handlePage{
+    background-color: teal;
+} */
+/* .pageBackground{
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+
+    /* height: 100%;
+    width: 100%;
+    
+    position: fixed; 
+}
+
+.contactMeCard{
+    margin-top: 5%;
+    width: 50%;
+
+    background-color: white;
+
+}
+
+.contactMe-title{
+    margin-top: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+    color: rgb(1, 99, 99);
+    margin-bottom: 5%;
+}
+
+.disone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.staticInfoDiv{
+    margin: 5%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.staticInfoDiv p{
+    width: auto;
+    color: teal;
+    margin-bottom: 10%;
+}
+.secondclass{
+   
+}
+ .contactMeImg{
+width:5em
+} 
+@media screen and (min-width:2500px) {
+    .disone{
+        flex-direction: row;
+    }
+    .pageBackground{
+        padding-bottom: 13%;
+    }
+} */
