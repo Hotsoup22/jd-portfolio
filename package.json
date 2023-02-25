@@ -4,7 +4,7 @@
   "engines": {
     "node": "16.x"
   },
-  "private": true,
+  "private": false,
   "homepage": "https://hotsoup42.github.io/jd-portfolio/",
   "dependencies": {
     "bootstrap": "^5.1.3",
